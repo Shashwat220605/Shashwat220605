@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/chipi-chipi-chapa-chapa.gif" width="100%" alt="Chipi Chipi Chapa Chapa">
+<img src="./chipi-chipi-chapa-chapa.gif" width="100%" alt="Chipi Chipi Chapa Chapa">
 
 # Shashwat Ghadge
 
