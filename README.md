@@ -93,16 +93,6 @@ A programming-language project with compiler-style architecture, type checking, 
 
 ---
 
-## 🏆 GitHub Journey
-
-- 🏃 **YOLO** ✓
-- ⚡ **Quickdraw** ✓
-- 🦈 **Pull Shark** hunting...
-
-I use GitHub not just to store code, but to build, collaborate, experiment, and continuously improve my projects.
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
