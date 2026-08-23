@@ -93,27 +93,6 @@ A programming-language project with compiler-style architecture, type checking, 
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Shashwat220605&show_icons=true&hide_border=true&rank_icon=github" height="165" alt="GitHub Stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashwat220605&layout=compact&hide_border=true" height="165" alt="Top Languages">
-
-</div>
-
----
-
-## 🔥 Contribution Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Shashwat220605&hide_border=true" alt="GitHub Contribution Streak">
-
-</div>
-
----
-
 ## 🧩 My Development Philosophy
 
 ```text
@@ -137,7 +116,5 @@ I prefer projects that combine **useful functionality with strong visual experie
 <div align="center">
 
 ### Thanks for stopping by 👋
-
-⭐ If something here is useful, feel free to explore the repository and leave a star.
 
 </div>
