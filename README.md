@@ -8,11 +8,6 @@
 
 Building interactive software, developer tools, AI projects, and visual experiences.
 
-<p>
-  <a href="https://github.com/Shashwat220605"><img src="https://img.shields.io/badge/GitHub-Shashwat220605-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <a href="https://github.com/Shashwat220605/AlgoVerse"><img src="https://img.shields.io/badge/AlgoVerse-Explore-7C3AED?style=for-the-badge&logo=github" alt="AlgoVerse"></a>
-</p>
-
 </div>
 
 ---
