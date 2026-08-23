@@ -16,7 +16,7 @@ I build web applications, developer tools, AI projects, and interactive 3D exper
 
 ## 🛠️ Tech Stack
 
-React • JavaScript • Python • C++ • Java • Node.js • MongoDB • Three.js • Blender • Unity
+React • JavaScript • Python • C++ • Java • Node.js • Three.js • Blender
 
 ## 📌 Featured Projects
 
