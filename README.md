@@ -50,8 +50,9 @@ I enjoy turning ideas into working products, experimenting with new technologies
 |---|---|
 | 🧠 **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
 | 🤖 **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
-| ⚙️ **Jett** | Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. |
+| ⚙️ **[Jett](https://github.com/Shashwat220605/Jett)** | 🚧 **Incomplete / Work in Progress** — Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. |
 | 🧪 **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
+| 🧠 **[Devora](https://github.com/Shashwat220605/Devora)** | AI developer workspace combining project-aware Gemini assistance, code execution, GitHub workflows, source control, PR reviews, deployment checks, and persistent project memory. |
 
 ### 🌐 AlgoVerse Website
 
@@ -60,6 +61,10 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ### 🧪 Periodic Table 3D Website
 
 **[Launch Interactive 3D Periodic Table →](https://periodic-table-3-d.vercel.app/)**
+
+### 🤖 Devora Website
+
+**[Launch Devora →](https://devora-rose.vercel.app/)**
 
 ---
 
@@ -79,9 +84,9 @@ A desktop automation and AI assistant project designed around practical workflow
 
 **[Explore Repository →](https://github.com/Shashwat220605/NOVA-AI-Assistant)**
 
-### ⚙️ Jett
+### ⚙️ Jett 🚧
 
-A programming-language project with compiler-style architecture, type checking, testing, documentation, and VS Code tooling.
+A programming-language project with compiler-style architecture, type checking, testing, documentation, and VS Code tooling. **Currently incomplete and still under development.**
 
 **[Explore Repository →](https://github.com/Shashwat220605/Jett)**
 
@@ -90,6 +95,12 @@ A programming-language project with compiler-style architecture, type checking, 
 An interactive 3D educational experience for exploring the periodic table with immersive visual interactions.
 
 **[Live Website →](https://periodic-table-3-d.vercel.app/)**
+
+### 🧠 Devora
+
+An AI-powered developer workspace bringing project-aware assistance, code execution, GitHub workflows, source control, AI PR reviews, deployment checks, and project memory into one place.
+
+**[GitHub Repository →](https://github.com/Shashwat220605/Devora) · [Live Website →](https://devora-rose.vercel.app/)**
 
 ---
 
