@@ -51,11 +51,15 @@ I enjoy turning ideas into working products, experimenting with new technologies
 | 🧠 **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
 | 🤖 **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
 | ⚙️ **Jett** | Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. |
-| 🧪 **Periodic Table 3D** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
+| 🧪 **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
 
 ### 🌐 AlgoVerse Website
 
 **[Launch AlgoVerse →](https://algo-verse-seven.vercel.app/)**
+
+### 🧪 Periodic Table 3D Website
+
+**[Launch Interactive 3D Periodic Table →](https://periodic-table-3-d.vercel.app/)**
 
 ---
 
@@ -80,6 +84,12 @@ A desktop automation and AI assistant project designed around practical workflow
 A programming-language project with compiler-style architecture, type checking, testing, documentation, and VS Code tooling.
 
 **[Explore Repository →](https://github.com/Shashwat220605/Jett)**
+
+### 🧪 Periodic Table 3D
+
+An interactive 3D educational experience for exploring the periodic table with immersive visual interactions.
+
+**[Live Website →](https://periodic-table-3-d.vercel.app/)**
 
 ---
 
