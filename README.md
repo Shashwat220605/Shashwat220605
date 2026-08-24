@@ -24,15 +24,11 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ### Languages
 
-`C` `C++` `Java` `Python` `JavaScript`
+`C` `C++` `Python` `JavaScript`
 
 ### Web & Backend
 
 `React` `Node.js` `Express` `Vite` `Tailwind CSS` `Three.js` `GSAP`
-
-### AI / Data
-
-`NumPy` `Pandas` `scikit-learn` `TensorFlow` `PyTorch`
 
 ### 3D & Creative Development
 
