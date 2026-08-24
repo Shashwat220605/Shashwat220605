@@ -55,7 +55,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ### 🌐 AlgoVerse Website
 
-**[Launch AlgoVerse →](https://algo-verse-gamma.vercel.app/)**
+**[Launch AlgoVerse →](https://algo-verse-seven.vercel.app/)**
 
 ---
 
@@ -67,7 +67,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 A visual DSA learning workspace covering searching, sorting, linked lists, stacks, queues, trees, heaps, BSTs, and graph algorithms including BFS, DFS, Dijkstra, Prim's, Kruskal's, Bellman-Ford, and Floyd-Warshall.
 
-**[GitHub Repository →](https://github.com/Shashwat220605/AlgoVerse) · [Live Website →](https://algo-verse-gamma.vercel.app/)**
+**[GitHub Repository →](https://github.com/Shashwat220605/AlgoVerse) · [Live Website →](https://algo-verse-seven.vercel.app/)**
 
 ### 🤖 NOVA AI Assistant
 
