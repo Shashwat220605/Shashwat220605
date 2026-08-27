@@ -44,15 +44,15 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 | Project | What it is |
 |---|---|
-| 🧠 **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
+| 🧠 **[Nexorune](https://github.com/Shashwat220605/Nexorune)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
 | 🤖 **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
 | ⚙️ **[Jett](https://github.com/Shashwat220605/Jett)** | 🚧 **Incomplete / Work in Progress** — Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. |
 | 🧪 **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
 | 🧠 **[Devora](https://github.com/Shashwat220605/Devora)** | AI developer workspace combining project-aware Gemini assistance, code execution, GitHub workflows, source control, PR reviews, deployment checks, and persistent project memory. |
 
-### 🌐 AlgoVerse Website
+### 🌐 Nexorune Website
 
-**[Launch AlgoVerse →](https://algo-verse-seven.vercel.app/)**
+**[Launch Nexorune →](https://algo-verse-seven.vercel.app/)**
 
 ### 🧪 Periodic Table 3D Website
 
@@ -66,13 +66,13 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ## 📌 Featured Work
 
-### 🧠 AlgoVerse
+### 🧠 Nexorune
 
 > **Don't just read the algorithm. Watch it execute.**
 
 A visual DSA learning workspace covering searching, sorting, linked lists, stacks, queues, trees, heaps, BSTs, and graph algorithms including BFS, DFS, Dijkstra, Prim's, Kruskal's, Bellman-Ford, and Floyd-Warshall.
 
-**[GitHub Repository →](https://github.com/Shashwat220605/AlgoVerse) · [Live Website →](https://algo-verse-seven.vercel.app/)**
+**[GitHub Repository →](https://github.com/Shashwat220605/Nexorune) · [Live Website →](https://algo-verse-seven.vercel.app/)**
 
 ### 🤖 NOVA AI Assistant
 
