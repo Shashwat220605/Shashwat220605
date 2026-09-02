@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 96" role="img" aria-label="Animated pixel runner">
+<defs><style>.r{shape-rendering:crispEdges}.p{fill:#24292f}.s{fill:#57606a}.a{fill:#0969da}.g{fill:#1f883d}.y{fill:#bf8700}.bg{fill:#f6f8fa}</style></defs>
+<rect width="640" height="96" class="bg"/>
+<path d="M0 76h640v4H0z" class="s"/>
+<g class="r">
+<path d="M8 72h624v4H8z" fill="#d0d7de"/>
+<path d="M48 72h8v4h-8zm80 0h8v4h-8zm80 0h8v4h-8zm80 0h8v4h-8zm80 0h8v4h-8zm80 0h8v4h-8zm80 0h8v4h-8z" class="s"/>
+<g>
+<path d="M42 20h20v8H42zM34 28h36v24H34zM42 52h28v8H42zM26 36h8v12h-8z" class="a"/>
+<path d="M38 28h28v8H38zM46 36h20v12H46z" class="y"/>
+<path d="M42 60h10v12H42zM62 60h10v12H62z" class="p"/>
+<path d="M30 28h8v8h-8zM62 28h8v8h-8z" class="p"/>
+<path d="M38 48h28v8H38z" class="g"/>
+</g>
+</g>
+<g>
+<path d="M42 20h20v8H42zM34 28h36v24H34zM42 52h28v8H42zM26 36h8v12h-8z" class="a"/>
+<path d="M38 28h28v8H38zM46 36h20v12H46z" class="y"/>
+<path d="M34 60h12v12H34zM62 60h12v12H62z" class="p"/>
+<path d="M30 28h8v8h-8zM62 28h8v8h-8z" class="p"/>
+<path d="M38 48h28v8H38z" class="g"/>
+<animateTransform attributeName="transform" type="translate" values="-80 0;700 0" dur="5s" repeatCount="indefinite"/>
+</g>
+</svg>
