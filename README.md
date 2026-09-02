@@ -2,17 +2,25 @@
 
 <img src="./chipi-chipi-chapa-chapa.gif" width="100%" alt="Chipi Chipi Chapa Chapa">
 
-# Shashwat Ghadge
+# SHASHWAT GHADGE
 
-### Computer Science Engineer • Full-Stack Developer • AI & 3D Enthusiast
+**Computer Science Engineer · Full-Stack Developer · AI & 3D Enthusiast**
 
 Building interactive software, developer tools, AI projects, and visual experiences.
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/Shashwat220605"><img src="https://img.shields.io/badge/GitHub-Shashwat220605-181717?style=flat-square&logo=github" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/AI%20%26%20ML-111827?style=flat-square" alt="AI & ML">
+  <img src="https://img.shields.io/badge/3D%20Development-111827?style=flat-square" alt="3D Development">
+</p>
+
 ---
 
-## 🚀 About Me
+## About
 
 I'm a Computer Science Engineering student focused on building practical software across **full-stack development, AI, algorithms, and 3D experiences**.
 
@@ -20,87 +28,39 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### Languages
-
+**Languages**  
 `C` `C++` `Python` `JavaScript`
 
-### Web & Backend
-
+**Web & Backend**  
 `React` `Node.js` `Express` `Vite` `Tailwind CSS` `Three.js` `GSAP`
 
-### 3D & Creative Development
-
+**3D & Creative Development**  
 `Blender` `Three.js`
 
-### Tools
-
+**Tools**  
 `Git` `GitHub` `VS Code` `Vercel`
 
 ---
 
-## 🔭 What I'm Building
+## Selected Work
 
-| Project | What it is |
-|---|---|
-| 🧠 **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
-| 🤖 **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
-| ⚙️ **[Jett](https://github.com/Shashwat220605/Jett)** | 🚧 **Incomplete / Work in Progress** — Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. |
-| 🧪 **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
-| 🧠 **[Devora](https://github.com/Shashwat220605/Devora)** | AI developer workspace combining project-aware Gemini assistance, code execution, GitHub workflows, source control, PR reviews, deployment checks, and persistent project memory. |
+| Project | Description |
+|:--|:--|
+| **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
+| **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
+| **[Jett](https://github.com/Shashwat220605/Jett)** | Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. Currently under development. |
+| **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
+| **[Devora](https://github.com/Shashwat220605/Devora)** | AI developer workspace combining project-aware assistance, code execution, GitHub workflows, source control, PR reviews, deployment checks, and persistent project memory. |
 
-### 🌐 AlgoVerse Website
+### Live Projects
 
-**[Launch AlgoVerse →](https://algo-verse-seven.vercel.app/)**
-
-### 🧪 Periodic Table 3D Website
-
-**[Launch Interactive 3D Periodic Table →](https://periodic-table-3-d.vercel.app/)**
-
-### 🤖 Devora Website
-
-**[Launch Devora →](https://devora-rose.vercel.app/)**
+**[AlgoVerse →](https://algo-verse-seven.vercel.app/)** · **[Periodic Table 3D →](https://periodic-table-3-d.vercel.app/)** · **[Devora →](https://devora-rose.vercel.app/)**
 
 ---
 
-## 📌 Featured Work
-
-### 🧠 AlgoVerse
-
-> **Don't just read the algorithm. Watch it execute.**
-
-A visual DSA learning workspace covering searching, sorting, linked lists, stacks, queues, trees, heaps, BSTs, and graph algorithms including BFS, DFS, Dijkstra, Prim's, Kruskal's, Bellman-Ford, and Floyd-Warshall.
-
-**[GitHub Repository →](https://github.com/Shashwat220605/AlgoVerse) · [Live Website →](https://algo-verse-seven.vercel.app/)**
-
-### 🤖 NOVA AI Assistant
-
-A desktop automation and AI assistant project designed around practical workflows and local productivity.
-
-**[Explore Repository →](https://github.com/Shashwat220605/NOVA-AI-Assistant)**
-
-### ⚙️ Jett 🚧
-
-A programming-language project with compiler-style architecture, type checking, testing, documentation, and VS Code tooling. **Currently incomplete and still under development.**
-
-**[Explore Repository →](https://github.com/Shashwat220605/Jett)**
-
-### 🧪 Periodic Table 3D
-
-An interactive 3D educational experience for exploring the periodic table with immersive visual interactions.
-
-**[Live Website →](https://periodic-table-3-d.vercel.app/)**
-
-### 🧠 Devora
-
-An AI-powered developer workspace bringing project-aware assistance, code execution, GitHub workflows, source control, AI PR reviews, deployment checks, and project memory into one place.
-
-**[GitHub Repository →](https://github.com/Shashwat220605/Devora) · [Live Website →](https://devora-rose.vercel.app/)**
-
----
-
-## 📚 Currently Learning
+## Currently Learning
 
 - Generative AI & AI application development
 - Machine Learning
@@ -110,28 +70,22 @@ An AI-powered developer workspace bringing project-aware assistance, code execut
 
 ---
 
-## 🧩 My Development Philosophy
+## Development Philosophy
 
 ```text
-Idea → Build → Test → Improve → Ship → Repeat
+IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ```
 
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
 
 ---
 
-## 📫 Connect
+## Connect
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/Shashwat220605">GitHub</a> · Explore my projects and experiments
+</p>
 
-<a href="https://github.com/Shashwat220605">GitHub</a> • Explore my projects and experiments
-
-</div>
-
----
-
-<div align="center">
-
-### Thanks for stopping by 👋
-
-</div>
+<p align="center">
+  <sub>Thanks for stopping by.</sub>
+</p>
