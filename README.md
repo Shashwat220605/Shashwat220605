@@ -79,17 +79,12 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 <div align="center">
 
 <a href="https://github.com/Shashwat220605">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shashwat220605&theme=github_dark" height="180" alt="GitHub statistics" />
-</a>
-<a href="https://github.com/Shashwat220605">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shashwat220605&theme=github_dark" height="180" alt="Top languages" />
+  <img src="https://github.com/users/Shashwat220605/contributions" width="100%" alt="GitHub contribution activity" />
 </a>
 
-<br><br>
-
-<a href="https://github.com/Shashwat220605">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashwat220605&theme=github-compact&hide_border=true" width="100%" alt="GitHub activity graph" />
-</a>
+<p>
+  <sub>Contribution activity shown directly from GitHub.</sub>
+</p>
 
 </div>
 
