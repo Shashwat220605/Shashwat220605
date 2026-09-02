@@ -79,22 +79,16 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 <div align="center">
 
 <a href="https://github.com/Shashwat220605">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shashwat220605&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="165" alt="GitHub statistics" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shashwat220605&theme=github_dark" height="180" alt="GitHub statistics" />
 </a>
 <a href="https://github.com/Shashwat220605">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashwat220605&layout=compact&hide_border=true&langs_count=8" height="165" alt="Top languages" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/Shashwat220605">
-  <img src="https://streak-stats.demolab.com?user=Shashwat220605&hide_border=true" alt="GitHub contribution streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shashwat220605&theme=github_dark" height="180" alt="Top languages" />
 </a>
 
 <br><br>
 
 <a href="https://github.com/Shashwat220605">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashwat220605&hide_border=true" width="100%" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashwat220605&theme=github-compact&hide_border=true" width="100%" alt="GitHub activity graph" />
 </a>
 
 </div>
