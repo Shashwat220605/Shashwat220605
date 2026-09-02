@@ -79,11 +79,11 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 <div align="center">
 
 <a href="https://github.com/Shashwat220605">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution activity" />
+  <img src="https://ghchart.xqsit94.in/dark:default/Shashwat220605" width="100%" alt="GitHub contribution activity" />
 </a>
 
 <p>
-  <sub>Contribution activity generated from GitHub data.</sub>
+  <sub>Contribution activity from GitHub's public contribution data.</sub>
 </p>
 
 </div>
