@@ -78,9 +78,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<a href="https://github.com/Shashwat220605">
-  <img src="https://github.com/user-attachments/assets/db1f70a4-c525-4e6f-b55e-ac8fe4e991b8" width="100%" alt="Mario animation" />
-</a>
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/runner.svg" width="100%" alt="Original pixel runner animation" />
 
 <br>
 
