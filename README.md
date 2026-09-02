@@ -78,7 +78,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/runner.svg" width="100%" alt="Original pixel runner animation" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/runner.svg?v=3" width="100%" alt="Original pixel platform runner animation" />
 
 <br>
 
