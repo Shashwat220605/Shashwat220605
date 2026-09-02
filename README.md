@@ -79,6 +79,12 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 <div align="center">
 
 <a href="https://github.com/Shashwat220605">
+  <img src="https://github.com/user-attachments/assets/db1f70a4-c525-4e6f-b55e-ac8fe4e991b8" width="100%" alt="Mario animation" />
+</a>
+
+<br>
+
+<a href="https://github.com/Shashwat220605">
   <img src="https://ghchart.xqsit94.in/dark:default/Shashwat220605" width="100%" alt="GitHub contribution activity" />
 </a>
 
