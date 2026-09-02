@@ -1,57 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" role="img" aria-label="Original pixel platform runner collecting coins">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" role="img" aria-label="Original pixel platform game animation">
 <defs>
 <style>
-.p{shape-rendering:crispEdges}.sky{fill:#9bdcff}.cloud{fill:#fff}.ground{fill:#7a4a25}.grass{fill:#3aa655}.brick{fill:#c97835}.dark{fill:#38251b}.hero{fill:#e84b3c}.skin{fill:#f3b27b}.blue{fill:#315fbd}.coin{fill:#ffd34d}.coin2{fill:#f0a900}.pipe{fill:#2f9e44}.white{fill:#fff}
+.pixel{shape-rendering:crispEdges}
+.sky{fill:#87ceeb}.cloud{fill:#fff}.hill{fill:#58a85c}.ground{fill:#b86f3c}.brick{fill:#d8893d}.brickline{fill:#9a552e}.pipe{fill:#38a852}.pipeDark{fill:#22783b}.question{fill:#e7a52b}.questionDark{fill:#a96e18}.coin{fill:#ffd447}.coinDark{fill:#c99a19}.red{fill:#e53935}.blue{fill:#1677d2}.skin{fill:#f1b27a}.brown{fill:#6b3e26}.dark{fill:#20242a}
 </style>
 </defs>
 <rect width="900" height="150" class="sky"/>
-<g class="p">
+<g class="pixel">
 <!-- clouds -->
-<path class="cloud" d="M65 38h32v-8h16v8h16v16H49V46h16zM705 25h24v-8h16v8h16v16h-56z"/>
-<!-- distant hills -->
-<path fill="#78c86b" d="M0 92h120l30-34 30 34h90l35-42 35 42h110l28-30 28 30h394v30H0z"/>
-<!-- platforms -->
-<path class="grass" d="M0 111h900v8H0z"/>
-<path class="ground" d="M0 119h900v31H0z"/>
-<path class="brick" d="M20 128h16v8H20zm32 0h16v8H52zm32 0h16v8H84zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16zm32 0h16v8h-16z"/>
-<!-- floating question blocks -->
+<g class="cloud"><path d="M70 34h48v8h16v12H54V42h16zM360 25h38v8h18v13h-72V33h16zM690 38h42v8h18v12h-76V46h16z"/></g>
+<!-- hills -->
+<path d="M0 112h110V92h18V78h18v14h18v20h80v-26h18V72h18v14h18v26h80v-18h18V82h18v14h18v16h70v-28h18V70h18v12h18v30h260v20H0z" class="hill"/>
+<!-- ground -->
+<rect y="128" width="900" height="22" class="ground"/>
+<path d="M0 128h900v5H0z" class="brickline"/>
+<!-- bricks -->
+<path d="M150 100h32v28h-32zM182 100h32v28h-32zM214 100h32v28h-32zM246 100h32v28h-32z" class="brick"/>
+<path d="M150 112h128M182 100v12M214 112v16M246 100v12" fill="none" stroke="#9a552e" stroke-width="3"/>
+<!-- question blocks -->
 <g>
-<rect x="250" y="55" width="32" height="32" rx="2" fill="#e9a72d"/><path class="dark" d="M262 65h9v4h-5v5h-5v-9zm0 13h5v5h-5z"/>
-<rect x="520" y="48" width="32" height="32" rx="2" fill="#e9a72d"/><path class="dark" d="M532 58h9v4h-5v5h-5v-9zm0 13h5v5h-5z"/>
-</g>
-<!-- coin bounce -->
-<g>
-<ellipse cx="266" cy="42" rx="7" ry="11" class="coin"/>
-<path d="M264 34h4v16h-4z" class="coin2"/>
-<animateTransform attributeName="transform" type="translate" values="0 15;0 -2;0 15" dur="1.2s" repeatCount="indefinite"/>
+<rect x="300" y="58" width="28" height="28" rx="2" class="questionDark"/>
+<rect x="304" y="54" width="28" height="28" rx="2" class="question"/>
+<text x="313" y="75" font-family="monospace" font-size="20" font-weight="bold" fill="#fff">?</text>
 </g>
 <g>
-<ellipse cx="536" cy="35" rx="7" ry="11" class="coin"/>
-<path d="M534 27h4v16h-4z" class="coin2"/>
-<animateTransform attributeName="transform" type="translate" values="0 14;0 -3;0 14" dur="1.2s" begin="0.55s" repeatCount="indefinite"/>
+<rect x="500" y="72" width="28" height="28" rx="2" class="questionDark"/>
+<rect x="504" y="68" width="28" height="28" rx="2" class="question"/>
+<text x="513" y="89" font-family="monospace" font-size="20" font-weight="bold" fill="#fff">?</text>
 </g>
 <!-- pipe -->
-<path class="pipe" d="M640 84h48v35h-48zm-7-8h62v10h-62z"/>
+<path d="M650 88h38v40h-38zM644 82h50v12h-50z" class="pipe"/>
+<path d="M650 94h8v34h-8z" class="pipeDark"/>
+<!-- coin -->
+<g>
+<ellipse cx="315" cy="40" rx="7" ry="11" class="coinDark"/>
+<ellipse cx="312" cy="38" rx="7" ry="11" class="coin"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0;0 -8;0 0" dur="1.8s" repeatCount="indefinite"/>
+</g>
+<!-- character, one copy only -->
+<g id="runner">
+<g id="body">
+<path d="M105 83h18v8h10v20h-8v17h-14v-17h-10v-20h4z" class="blue"/>
+<path d="M109 70h24v18h-28V76h4z" class="red"/>
+<path d="M104 76h8v8h-8zM126 76h8v8h-8z" class="skin"/>
+<path d="M108 68h24v7h-24zM102 75h8v13h-8z" class="brown"/>
+<path d="M112 88h20v8h-20z" class="skin"/>
+<path d="M111 108h12v12h-12zM129 108h10v12h-10z" class="brown"/>
+<path d="M107 120h16v8h-16zM130 120h14v8h-14z" class="dark"/>
+</g>
+<!-- jump arc -->
+<animateTransform attributeName="transform" type="translate" values="0 0;65 -48;130 0;195 0;260 0;325 -48;390 0;455 0;520 0;585 -48;650 0;715 0" dur="7.2s" repeatCount="indefinite"/>
+</g>
 <!-- flag -->
-<path class="dark" d="M790 48h5v71h-5z"/><path class="hero" d="M795 50h38v25h-38z"/>
-<!-- original hero, 4 pose frames -->
-<g>
-<!-- frame A -->
-<g id="a"><path class="hero" d="M99 63h27v7h9v17h-9v10h-8v12h-10V97H96v12H84V97h7V80h8z"/><path class="skin" d="M101 70h25v16h-7v7H98V81h-7v-8h10z"/><path class="blue" d="M98 88h28v9H98z"/><path class="dark" d="M91 64h9v7h-9zm8-7h24v7H99zm25 7h10v7h-10z"/></g>
-<g id="b" opacity="0"><path class="hero" d="M99 63h27v7h9v17h-9v10h-8v12h-10V97H96v12H84V97h7V80h8z"/><path class="skin" d="M101 70h25v16h-7v7H98V81h-7v-8h10z"/><path class="blue" d="M98 88h28v9H98z"/><path class="dark" d="M91 64h9v7h-9zm8-7h24v7H99zm25 7h10v7h-10z"/></g>
-<g id="c" opacity="0"><path class="hero" d="M99 63h27v7h9v17h-9v10h-8v12h-10V97H96v12H84V97h7V80h8z"/><path class="skin" d="M101 70h25v16h-7v7H98V81h-7v-8h10z"/><path class="blue" d="M98 88h28v9H98z"/><path class="dark" d="M91 64h9v7h-9zm8-7h24v7H99zm25 7h10v7h-10z"/></g>
-<animateTransform attributeName="transform" type="translate" values="-150 0;650 0" dur="7s" repeatCount="indefinite"/>
-<animate xlink:href="#a" attributeName="opacity" values="1;0;0;1" keyTimes="0;.32;.68;1" dur=".42s" repeatCount="indefinite"/>
-<animate xlink:href="#b" attributeName="opacity" values="0;1;0;0" keyTimes="0;.32;.68;1" dur=".42s" repeatCount="indefinite"/>
-<animate xlink:href="#c" attributeName="opacity" values="0;0;1;0" keyTimes="0;.32;.68;1" dur=".42s" repeatCount="indefinite"/>
-</g>
-<!-- jump arc overlay -->
-<g>
-<path class="hero" d="M99 63h27v7h9v17h-9v10h-8v12h-10V97H96v12H84V97h7V80h8z"/>
-<path class="skin" d="M101 70h25v16h-7v7H98V81h-7v-8h10z"/>
-<path class="blue" d="M98 88h28v9H98z"/>
-<path class="dark" d="M91 64h9v7h-9zm8-7h24v7H99zm25 7h10v7h-10z"/>
-<animateTransform attributeName="transform" type="translate" values="-150 0;110 0;190 -45;270 0;650 0" keyTimes="0;.38;.48;.58;1" dur="7s" repeatCount="indefinite"/>
-</g>
+<path d="M820 55h5v73h-5z" class="dark"/>
+<path d="M825 58h42v25h-42z" class="red"/>
+<path d="M825 83h42v6h-42z" class="cloud"/>
 </g>
 </svg>
