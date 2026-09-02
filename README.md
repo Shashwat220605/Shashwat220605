@@ -8,7 +8,7 @@ Building interactive software, developer tools, AI projects, and visual experien
 
 <p>
   <a href="https://github.com/Shashwat220605">GitHub</a> ·
-  <a href="https://algo-verse-seven.vercel.app/">Portfolio / AlgoVerse</a> ·
+  <a href="https://algo-verse-seven.vercel.app/">AlgoVerse</a> ·
   <a href="https://periodic-table-3-d.vercel.app/">Periodic Table 3D</a> ·
   <a href="https://devora-rose.vercel.app/">Devora</a>
 </p>
@@ -77,8 +77,8 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shashwat220605&show_icons=true&hide_border=true&rank_icon=github" height="165" alt="GitHub statistics">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashwat220605&layout=compact&hide_border=true" height="165" alt="Top languages">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shashwat220605&show_icons=true&hide_border=true&rank_icon=github" height="165" alt="GitHub statistics">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shashwat220605&layout=compact&hide_border=true" height="165" alt="Top languages">
 </p>
 
 ---
