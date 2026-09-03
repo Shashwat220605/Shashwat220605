@@ -79,17 +79,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <br>
 
-<a href="https://github.com/Shashwat220605">
-  <img src="https://ghchart.xqsit94.in/dark:default/Shashwat220605" width="100%" alt="GitHub contribution activity" />
-</a>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg?v=2" width="100%" alt="GitHub contribution snake animation" />
-
-<p>
-  <sub>Contribution activity from GitHub's public contribution data.</sub>
-</p>
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg?v=3" width="100%" alt="Animated green contribution snake" />
 
 </div>
 
