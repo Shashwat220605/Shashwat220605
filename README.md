@@ -78,7 +78,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/runner-final.svg?v=2" width="100%" alt="Original pixel platform runner animation" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller.svg?v=1" width="100%" alt="Original animated gaming controller" />
 
 <br>
 
