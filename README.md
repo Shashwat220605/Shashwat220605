@@ -25,6 +25,10 @@ I'm a Computer Science Engineering student focused on building practical softwar
 
 I enjoy turning ideas into working products, experimenting with new technologies, and making complex concepts easier to understand through interactive interfaces.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa.webp?v=1" width="580" alt="Two chipi chapa cats facing each other" />
+</div>
+
 ---
 
 ## Selected Work
