@@ -13,7 +13,7 @@ Building interactive software, developer tools, AI projects, and visual experien
   <a href="https://devora-rose.vercel.app/">Devora</a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal.svg?v=2" width="100%" alt="Animated developer terminal" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal.svg?v=3" width="100%" alt="Animated developer terminal" />
 
 </div>
 
@@ -88,7 +88,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=4" width="100%" alt="Original large animated pixel gaming controller" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=5" width="100%" alt="Original large animated pixel gaming controller" />
 
 <br>
 
