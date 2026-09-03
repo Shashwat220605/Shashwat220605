@@ -79,7 +79,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg?v=5" width="100%" alt="Animated green snake game on a white contribution grid" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/github-snake-github-bg.gif?v=1" width="100%" alt="Animated green Snake game moving through a GitHub-style contribution grid" />
 
 </div>
 
