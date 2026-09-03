@@ -60,10 +60,6 @@ I prefer projects that combine **useful functionality with strong visual experie
 IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ```
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/particle-field.svg?v=1" width="100%" alt="Animated developer particle field" />
-</div>
-
 ---
 
 ## Currently
