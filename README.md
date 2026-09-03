@@ -7,10 +7,7 @@
 Building interactive software, developer tools, AI projects, and visual experiences.
 
 <p>
-  <a href="https://github.com/Shashwat220605">GitHub</a> ·
-  <a href="https://algo-verse-seven.vercel.app/">AlgoVerse</a> ·
-  <a href="https://periodic-table-3-d.vercel.app/">Periodic Table 3D</a> ·
-  <a href="https://devora-rose.vercel.app/">Devora</a>
+  <a href="https://github.com/Shashwat220605">GitHub</a>
 </p>
 
 <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal-v5.svg?v=1" width="100%" alt="Animated developer profile terminal" />
@@ -28,20 +25,6 @@ I enjoy turning ideas into working products, experimenting with new technologies
 <div align="center">
   <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa-cats.svg?v=3" width="700" alt="Two full body pixel art chipi chapa cats facing each other" />
 </div>
-
----
-
-## Selected Work
-
-| Project | Description |
-|:--|:--|
-| **[AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)** | Interactive DSA learning platform with algorithm visualization, execution controls, code highlighting, notes, and practice tools. |
-| **NOVA AI Assistant** | Desktop AI and automation project focused on useful local workflows and developer productivity. |
-| **[Jett](https://github.com/Shashwat220605/Jett)** | Programming-language project exploring language design, parsing, type checking, tooling, and developer experience. Currently under development. |
-| **[Periodic Table 3D](https://periodic-table-3-d.vercel.app/)** | Interactive 3D learning experience for exploring chemical elements and periodic trends. |
-| **[Devora](https://github.com/Shashwat220605/Devora)** | AI developer workspace combining project-aware assistance, code execution, GitHub workflows, source control, PR reviews, deployment checks, and persistent project memory. |
-
-**Live:** [AlgoVerse](https://algo-verse-seven.vercel.app/) · [Periodic Table 3D](https://periodic-table-3-d.vercel.app/) · [Devora](https://devora-rose.vercel.app/)
 
 ---
 
@@ -81,10 +64,10 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 ## Currently
 
-- Learning **C++** through a ray tracing project
-- Building **RayForge**, a C++ ray tracer
+- Learning **C++** and strengthening problem-solving fundamentals
 - Exploring deeper systems-level programming and rendering concepts
-- Continuing to develop AI, full-stack, algorithmic, and 3D projects
+- Practicing algorithms and competitive programming
+- Continuing to develop skills across AI, full-stack development, and 3D
 
 ---
 
@@ -100,6 +83,10 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
   <img src="https://ghchart.xqsit94.in/dark:default/Shashwat220605" width="100%" alt="GitHub contribution activity" />
 </a>
 
+<br>
+
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation" />
+
 <p>
   <sub>Contribution activity from GitHub's public contribution data.</sub>
 </p>
@@ -111,7 +98,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ## Connect
 
 <p align="center">
-  <a href="https://github.com/Shashwat220605">GitHub</a> · Explore my projects and experiments
+  <a href="https://github.com/Shashwat220605">GitHub</a> · Explore my work and experiments
 </p>
 
 <p align="center">
