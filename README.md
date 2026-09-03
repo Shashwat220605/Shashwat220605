@@ -31,7 +31,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ## Digital Flow
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/code-dna.svg?v=1" width="100%" alt="Animated digital DNA code stream" />
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/code-dna.gif?v=1" width="100%" alt="Animated digital DNA code stream" />
 </div>
 
 ---
@@ -67,10 +67,6 @@ I prefer projects that combine **useful functionality with strong visual experie
 ```text
 IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ```
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/particle-field.svg?v=1" width="100%" alt="Animated developer particle field" />
-</div>
 
 ---
 
