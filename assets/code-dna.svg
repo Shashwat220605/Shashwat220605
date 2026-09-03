@@ -8,6 +8,6 @@ svg{shape-rendering:crispEdges} .code{font:14px monospace;fill:#58a6ff;opacity:.
 <g stroke-linecap="square">
 <path class="rung" d="M250 65h120M310 105h115M390 145h115M475 185h115M565 145h115M645 105h115M710 65h80"/>
 </g>
-<g class="code"><text x="48" y="62">0101</text><text x="55" y="102">C++</text><text x="45" y="142">{ }</text><text x="58" y="182">0xFF</text><text x="860" y="62">AI</text><text x="850" y="102">JS</text><text x="858" y="142">&amp;&amp;</text><text x="842" y="182">build()</text><text x="475" y="24" class="bright">CODE_STREAM // ACTIVE</text></g>
+<g class="code"><text x="48" y="62">0101</text><text x="55" y="102">C++</text><text x="45" y="142">{ }</text><text x="58" y="182">0xFF</text><text x="860" y="62">AI</text><text x="850" y="102">JS</text><text x="858" y="142">&&</text><text x="842" y="182">build()</text><text x="475" y="24" class="bright">CODE_STREAM // ACTIVE</text></g>
 <rect class="scan" x="0" y="0" width="140" height="260"/>
 </svg>
