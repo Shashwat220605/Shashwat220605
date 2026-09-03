@@ -1,0 +1,43 @@
+name: Build DNA Animation GIF
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install render tools
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin imagemagick
+
+      - name: Render animated frames
+        shell: bash
+        run: |
+          set -e
+          mkdir -p /tmp/dna
+          for i in $(seq 0 15); do
+            offset=$((i * 10))
+            scan=$((i * 70 - 180))
+            sed -e "s/stroke-dashoffset:-80/stroke-dashoffset:-${offset}/" \
+                -e "s/translateX(-180px)/translateX(${scan}px)/" \
+                assets/code-dna.svg > /tmp/dna/frame.svg
+            rsvg-convert -w 1200 /tmp/dna/frame.svg -o "/tmp/dna/frame-${i}.png"
+          done
+          magick -delay 9 -loop 0 -layers Optimize /tmp/dna/frame-*.png assets/code-dna.gif
+
+      - name: Commit GIF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/code-dna.gif
+          git diff --cached --quiet && exit 0
+          git commit -m "Add animated DNA GIF"
+          git push
