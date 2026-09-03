@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" role="img" aria-label="Original pixel platform runner animation">
+<style>
+.pixel{shape-rendering:crispEdges}.sky{fill:#8ed6ff}.cloud{fill:#fff}.hill{fill:#55a85a}.ground{fill:#9b5a32}.groundTop{fill:#7c4528}.brick{fill:#c97838}.brickline{stroke:#7c4528;stroke-width:3}.red{fill:#e53935}.blue{fill:#1677d2}.skin{fill:#f0b27a}.brown{fill:#70452d}.dark{fill:#20242a}.coin{fill:#ffd83d}.coin2{fill:#c99b20}.block{fill:#e5a52b}.block2{fill:#a76d18}
+@keyframes jump{0%,18%{transform:translate(0,0)}28%{transform:translate(65px,-58px)}38%{transform:translate(95px,-58px)}50%{transform:translate(130px,0)}100%{transform:translate(0,0)}}
+@keyframes coin{0%,20%{transform:translateY(0)}30%{transform:translateY(-28px)}45%{transform:translateY(-8px)}55%,100%{transform:translateY(0)}}
+@keyframes stepL{0%,100%{transform:translate(0,0)}50%{transform:translate(-4px,3px)}}
+@keyframes stepR{0%,100%{transform:translate(0,0)}50%{transform:translate(4px,-2px)}}
+.hero{animation:jump 3.5s ease-in-out infinite}.coinAnim{animation:coin 3.5s ease-in-out infinite}.legL{animation:stepL .35s steps(2) infinite}.legR{animation:stepR .35s steps(2) infinite}
+</style>
+<rect width="900" height="180" class="sky"/>
+<g class="pixel">
+<path d="M0 125h100V105h20V88h20v17h20v20h80V98h20V78h20v20h20v27h90V110h20V90h20v20h20v15h90V96h20V76h20v20h20v29h300v55H0z" class="hill"/>
+<g class="cloud"><path d="M70 35h45V23h25v12h18v15H52V38h18zM370 52h50V35h24v17h18v14h-92zM690 30h42V18h24v12h18v15h-84z"/></g>
+<!-- permanent ground: never translated or animated -->
+<rect x="0" y="145" width="900" height="35" class="ground"/>
+<rect x="0" y="145" width="900" height="5" class="groundTop"/>
+<path d="M0 157h900M0 169h900" stroke="#7c4528" stroke-width="2"/>
+<!-- level scenery -->
+<g>
+<path d="M220 105h32v40h-32zM252 105h32v40h-32zM284 105h32v40h-32z" class="brick"/>
+<path d="M220 125h96M252 105v20M284 125v20" fill="none" class="brickline"/>
+<rect x="350" y="60" width="34" height="34" class="block2"/><rect x="345" y="55" width="34" height="34" class="block"/><text x="355" y="80" font-family="monospace" font-size="23" font-weight="bold" fill="white">?</text>
+<g class="coinAnim"><ellipse cx="362" cy="40" rx="7" ry="11" class="coin2"/><ellipse cx="359" cy="37" rx="7" ry="11" class="coin"/></g>
+<rect x="515" y="77" width="34" height="34" class="block2"/><rect x="510" y="72" width="34" height="34" class="block"/><text x="520" y="97" font-family="monospace" font-size="23" font-weight="bold" fill="white">?</text>
+<path d="M665 105h44v40h-44zM658 98h58v13h-58z" fill="#35a853"/><path d="M665 112h9v33h-9z" fill="#23763b"/>
+</g>
+<!-- one runner -->
+<g class="hero">
+<path d="M82 91h34v8h6v20H78V99h4z" class="blue"/>
+<path d="M85 77h28v20H80V84h5z" class="red"/>
+<path d="M80 82h9v9h-9zM105 82h9v9h-9z" class="skin"/>
+<path d="M84 72h28v8H84zM78 79h10v14H78z" class="brown"/>
+<path d="M88 97h24v8H88z" class="skin"/>
+<g class="legL"><rect x="85" y="119" width="13" height="18" class="brown"/><rect x="80" y="137" width="20" height="7" class="dark"/></g>
+<g class="legR"><rect x="104" y="119" width="13" height="18" class="brown"/><rect x="102" y="137" width="20" height="7" class="dark"/></g>
+</g>
+<path d="M815 72h6v73h-6z" class="dark"/><path d="M821 75h44v27h-44z" class="red"/><path d="M821 88h20v14h-20z" class="cloud"/>
+</g>
+</svg>
