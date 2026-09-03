@@ -79,7 +79,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg?v=3" width="100%" alt="Animated green contribution snake" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/gh-pages/github-contribution-grid-snake.svg?v=4" width="100%" alt="Animated green contribution snake" />
 
 </div>
 
