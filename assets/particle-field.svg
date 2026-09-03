@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Animated developer particle field">
+<style>
+svg{shape-rendering:crispEdges}.p{fill:#58a6ff;animation:drift 4s ease-in-out infinite}.p2{fill:#c084fc;animation:drift 5s ease-in-out infinite reverse}.p3{fill:#39d9ff;animation:drift 3.5s ease-in-out infinite}.line{stroke:#58a6ff;stroke-width:1;opacity:.16;animation:fade 3s ease-in-out infinite}@keyframes drift{0%,100%{transform:translate(0,0);opacity:.35}50%{transform:translate(10px,-8px);opacity:1}}@keyframes fade{50%{opacity:.5}}
+</style>
+<rect width="1000" height="260" rx="18" fill="#090c12"/>
+<g class="line"><path d="M90 70L220 145L350 65L500 170L640 80L790 145L910 60"/><path d="M120 205L220 145L350 205L500 170L640 205L790 145L880 205"/><path d="M350 65L350 205M640 80L640 205M500 170V45"/></g>
+<g>
+<circle class="p" cx="90" cy="70" r="5"/><circle class="p2" cx="220" cy="145" r="7"/><circle class="p3" cx="350" cy="65" r="4"/><circle class="p" cx="500" cy="170" r="8"/><circle class="p2" cx="640" cy="80" r="5"/><circle class="p3" cx="790" cy="145" r="6"/><circle class="p" cx="910" cy="60" r="4"/><circle class="p3" cx="120" cy="205" r="4"/><circle class="p2" cx="350" cy="205" r="5"/><circle class="p" cx="640" cy="205" r="4"/><circle class="p2" cx="880" cy="205" r="6"/>
+</g>
+<g fill="#687587" font-family="monospace" font-size="13"><text x="42" y="35">PARTICLE_FIELD</text><text x="806" y="235">SYSTEM ONLINE</text></g>
+</svg>
