@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-label="Animated developer terminal for Shashwat Ghadge">
+<style>
+*{shape-rendering:crispEdges}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d;stroke-width:3}.bar{fill:#21262d}.red{fill:#ff5f56}.yellow{fill:#ffbd2e}.green{fill:#27c93f}.text{fill:#c9d1d9;font-family:monospace;font-size:16px}.dim{fill:#8b949e;font-family:monospace;font-size:14px}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.cursor{fill:#58a6ff}
+@keyframes show1{0%,8%{opacity:0}12%,100%{opacity:1}}@keyframes show2{0%,22%{opacity:0}27%,100%{opacity:1}}@keyframes show3{0%,42%{opacity:0}47%,100%{opacity:1}}@keyframes show4{0%,62%{opacity:0}67%,100%{opacity:1}}@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}
+.s1{opacity:0;animation:show1 6s steps(1) infinite}.s2{opacity:0;animation:show2 6s steps(1) infinite}.s3{opacity:0;animation:show3 6s steps(1) infinite}.s4{opacity:0;animation:show4 6s steps(1) infinite}.cursor{animation:blink .9s steps(1) infinite}
+</style>
+<rect width="900" height="230" rx="14" class="bg"/>
+<rect x="18" y="18" width="864" height="194" rx="10" class="panel"/>
+<rect x="18" y="18" width="864" height="34" rx="10" class="bar"/>
+<circle cx="42" cy="35" r="6" class="red"/><circle cx="62" cy="35" r="6" class="yellow"/><circle cx="82" cy="35" r="6" class="green"/>
+<text x="450" y="39" text-anchor="middle" class="dim">SHASHWAT@GITHUB • ~/developer</text>
+<g class="s1"><text x="42" y="78" class="text"><tspan class="blue">$</tspan> whoami</text><text x="42" y="101" class="text">Shashwat Ghadge</text></g>
+<g class="s2"><text x="42" y="129" class="text"><tspan class="blue">$</tspan> currently</text><text x="42" y="152" class="text"><tspan class="cyan">→</tspan> Building RayForge • Learning C++</text></g>
+<g class="s3"><text x="42" y="180" class="text"><tspan class="blue">$</tspan> status</text><text x="42" y="203" class="text"><tspan class="green">●</tspan> BUILD • TEST • IMPROVE • SHIP</text></g>
+<rect x="366" y="188" width="9" height="17" class="cursor"/>
+</svg>
