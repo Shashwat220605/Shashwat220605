@@ -32,7 +32,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ### ⚙️ Languages
 
-`C` `C++` `Python` `JavaScript`
+`C` `C++` `Python` `JavaScript` `TypeScript`
 
 ### 🌐 Web & Backend
 
