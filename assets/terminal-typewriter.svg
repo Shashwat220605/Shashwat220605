@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Animated developer profile terminal">
+<style>
+*{shape-rendering:crispEdges}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d;stroke-width:3}.bar{fill:#21262d}.red{fill:#ff5f56}.yellow{fill:#ffbd2e}.green{fill:#27c93f}.txt{fill:#c9d1d9;font-family:monospace;font-size:18px}.dim{fill:#8b949e;font-family:monospace;font-size:15px}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.purple{fill:#bc8cff}.cur{fill:#58a6ff}
+@keyframes reveal1{0%,5%{clip-path:inset(0 100% 0 0)}20%,100%{clip-path:inset(0 0 0 0)}}
+@keyframes reveal2{0%,25%{clip-path:inset(0 100% 0 0)}40%,100%{clip-path:inset(0 0 0 0)}}
+@keyframes reveal3{0%,45%{clip-path:inset(0 100% 0 0)}62%,100%{clip-path:inset(0 0 0 0)}}
+@keyframes cursor1{0%,5%{transform:translateX(0)}20%,100%{transform:translateX(144px)}}
+@keyframes cursor2{0%,25%{transform:translateX(0)}40%,100%{transform:translateX(306px)}}
+@keyframes cursor3{0%,45%{transform:translateX(0)}62%,100%{transform:translateX(396px)}}
+@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}
+@keyframes led{0%,100%{opacity:.3}50%{opacity:1}}
+.r1{animation:reveal1 10s steps(1) infinite}.r2{animation:reveal2 10s steps(1) infinite}.r3{animation:reveal3 10s steps(1) infinite}.c1{animation:cursor1 10s steps(18,end) infinite}.c2{animation:cursor2 10s steps(38,end) infinite}.c3{animation:cursor3 10s steps(48,end) infinite}.blink{animation:blink .8s steps(1) infinite}.led{animation:led 1.5s ease-in-out infinite}
+</style>
+<rect width="1000" height="320" rx="16" class="bg"/>
+<rect x="18" y="18" width="964" height="284" rx="11" class="panel"/>
+<rect x="18" y="18" width="964" height="38" rx="11" class="bar"/>
+<circle cx="44" cy="37" r="6" class="red"/><circle cx="65" cy="37" r="6" class="yellow"/><circle cx="86" cy="37" r="6" class="green"/><circle cx="950" cy="37" r="5" class="led" fill="#39d9ff"/>
+<text x="500" y="42" text-anchor="middle" class="dim">SHASHWAT@GITHUB • ~/profile</text>
+
+<g class="r1"><text x="48" y="94" class="txt"><tspan class="blue">$</tspan> whoami</text><text x="48" y="126" class="txt"><tspan class="cyan">→</tspan> Shashwat Ghadge</text></g>
+<rect x="48" y="112" width="10" height="20" class="cur blink c1"/>
+
+<g class="r2"><text x="48" y="166" class="txt"><tspan class="blue">$</tspan> role</text><text x="48" y="198" class="txt"><tspan class="purple">→</tspan> Computer Science Engineer</text></g>
+<rect x="48" y="184" width="10" height="20" class="cur blink c2"/>
+
+<g class="r3"><text x="48" y="238" class="txt"><tspan class="blue">$</tspan> skills</text><text x="48" y="270" class="txt"><tspan class="cyan">→</tspan> C · C++ · Python · JavaScript</text></g>
+<rect x="48" y="256" width="10" height="20" class="cur blink c3"/>
+</svg>
