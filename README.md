@@ -28,14 +28,6 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 ---
 
-## Digital Flow
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/code-dna.svg?v=1" width="100%" alt="Animated digital DNA code stream" />
-</div>
-
----
-
 ## Tech Arsenal
 
 <div align="center">
