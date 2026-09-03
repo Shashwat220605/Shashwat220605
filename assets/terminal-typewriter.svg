@@ -4,12 +4,12 @@
 @keyframes reveal1{0%,5%{clip-path:inset(0 100% 0 0)}20%,100%{clip-path:inset(0 0 0 0)}}
 @keyframes reveal2{0%,25%{clip-path:inset(0 100% 0 0)}40%,100%{clip-path:inset(0 0 0 0)}}
 @keyframes reveal3{0%,45%{clip-path:inset(0 100% 0 0)}62%,100%{clip-path:inset(0 0 0 0)}}
-@keyframes cursor1{0%,5%{transform:translateX(0)}20%,100%{transform:translateX(144px)}}
-@keyframes cursor2{0%,25%{transform:translateX(0)}40%,100%{transform:translateX(306px)}}
-@keyframes cursor3{0%,45%{transform:translateX(0)}62%,100%{transform:translateX(396px)}}
+@keyframes cursor1{0%,5%{transform:translateX(0)}20%,100%{transform:translateX(180px)}}
+@keyframes cursor2{0%,25%{transform:translateX(0)}40%,100%{transform:translateX(300px)}}
+@keyframes cursor3{0%,45%{transform:translateX(0)}62%,100%{transform:translateX(340px)}}
 @keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}
 @keyframes led{0%,100%{opacity:.3}50%{opacity:1}}
-.r1{animation:reveal1 10s steps(1) infinite}.r2{animation:reveal2 10s steps(1) infinite}.r3{animation:reveal3 10s steps(1) infinite}.c1{animation:cursor1 10s steps(18,end) infinite}.c2{animation:cursor2 10s steps(38,end) infinite}.c3{animation:cursor3 10s steps(48,end) infinite}.blink{animation:blink .8s steps(1) infinite}.led{animation:led 1.5s ease-in-out infinite}
+.r1{animation:reveal1 10s steps(18,end) infinite}.r2{animation:reveal2 10s steps(30,end) infinite}.r3{animation:reveal3 10s steps(34,end) infinite}.c1{animation:cursor1 10s steps(18,end) infinite}.c2{animation:cursor2 10s steps(30,end) infinite}.c3{animation:cursor3 10s steps(34,end) infinite}.blink{animation:blink .8s steps(1) infinite}.led{animation:led 1.5s ease-in-out infinite}
 </style>
 <rect width="1000" height="320" rx="16" class="bg"/>
 <rect x="18" y="18" width="964" height="284" rx="11" class="panel"/>
