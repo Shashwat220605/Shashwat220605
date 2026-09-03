@@ -75,7 +75,9 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=5" width="100%" alt="Original large animated pixel gaming controller" />
+<a href="https://github.com/Shashwat220605">
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=5" width="100%" alt="Original large animated pixel gaming controller" />
+</a>
 
 <br>
 
