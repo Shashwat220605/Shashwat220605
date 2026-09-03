@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-label="Two detailed pixel art chipi chapa cats facing each other">
+<style>
+svg{shape-rendering:crispEdges}.cat{animation:bob 1.15s steps(2,end) infinite}.cat.r{animation-delay:-.575s}.tail{transform-box:fill-box;transform-origin:50% 100%;animation:wag .8s steps(3,end) infinite alternate}.r .tail{animation-delay:-.4s}.heart{transform-box:fill-box;transform-origin:center;animation:pulse 1s steps(2,end) infinite alternate}.label{font:700 24px monospace;fill:#bc8cff}@keyframes bob{0%{transform:translateY(3px)}100%{transform:translateY(-4px)}}@keyframes wag{0%{transform:rotate(-12deg)}100%{transform:rotate(14deg)}}@keyframes pulse{0%{transform:scale(.9)}100%{transform:scale(1.1)}}
+</style>
+<!-- left cat -->
+<g class="cat" transform="translate(90 35)">
+<g>
+<path fill="#2b2928" d="M82 65h18V47h18V29h27v13h72V29h27v18h18v18h13v111h-13v27h-18v18h-27v14h-72v-14h-27v-18h-18v-27H69V83h13z"/>
+<path fill="#c9bfae" d="M88 72h18V54h18v18h72V54h18v18h18v27h13v73h-13v27h-18v18h-27v13h-58v-13h-27v-18H84v-27H75v-67h13z"/>
+<path fill="#eee2cb" d="M142 107h49v9h18v18h9v49h-9v18h-18v18h-49v-9h-27v-18h-9v-49h9v-18h27z"/>
+<path fill="#b7ad9d" d="M91 74h22v30h-22zM109 55h18v20h-18zM205 55h18v49h-18zM84 159h25v34H84z"/>
+<path fill="#171717" d="M127 120h18v25h-18zM183 120h18v25h-18zM151 151h18v12h-18zM145 163h30v9h-30z"/>
+<path fill="#f5eee1" d="M127 177h18v18h-18zM183 177h18v18h-18z"/>
+<path fill="#3a3632" d="M73 139h43v6H73zM73 157h43v6H73zM201 139h43v6h-43zM201 157h43v6h-43z"/>
+<path fill="#8c8172" d="M124 195h18v34h-18zM190 195h18v34h-18z"/>
+</g>
+<g class="tail"><path fill="#9f9586" d="M101 191h-23v12H60v18H45v25h12v13h25v-13h18v-18h18v-25h13v-18h-30z"/><path fill="#c9bfae" d="M84 204H66v18H53v22h13v8h18v-13h18v-17h13v-18H84z"/></g>
+</g>
+<!-- right cat -->
+<g class="cat r" transform="translate(910 35) scale(-1 1)">
+<g>
+<path fill="#2b2928" d="M82 65h18V47h18V29h27v13h72V29h27v18h18v18h13v111h-13v27h-18v18h-27v14h-72v-14h-27v-18h-18v-27H69V83h13z"/>
+<path fill="#d4a66b" d="M88 72h18V54h18v18h72V54h18v18h18v27h13v73h-13v27h-18v18h-27v13h-58v-13h-27v-18H84v-27H75v-67h13z"/>
+<path fill="#f3dfbd" d="M142 107h49v9h18v18h9v49h-9v18h-18v18h-49v-9h-27v-18h-9v-49h9v-18h27z"/>
+<path fill="#a97645" d="M91 74h22v30h-22zM109 55h18v20h-18zM205 55h18v49h-18zM84 159h25v34H84z"/>
+<path fill="#171717" d="M127 120h18v25h-18zM183 120h18v25h-18zM151 151h18v12h-18zM145 163h30v9h-30z"/>
+<path fill="#fff2d8" d="M127 177h18v18h-18zM183 177h18v18h-18z"/>
+<path fill="#3a3632" d="M73 139h43v6H73zM73 157h43v6H73zM201 139h43v6h-43zM201 157h43v6h-43z"/>
+<path fill="#9a643b" d="M124 195h18v34h-18zM190 195h18v34h-18z"/>
+</g>
+<g class="tail"><path fill="#9a643b" d="M101 191h-23v12H60v18H45v25h12v13h25v-13h18v-18h18v-25h13v-18h-30z"/><path fill="#d4a66b" d="M84 204H66v18H53v22h13v8h18v-13h18v-17h13v-18H84z"/></g>
+</g>
+<!-- pixel heart and facing mark -->
+<g class="heart"><path fill="#ff719f" d="M463 127h14v-14h14v7h14v-7h14v14h14v28h-14v14h-14v14h-14v-14h-14v-14h-14z"/></g>
+<text x="500" y="245" text-anchor="middle" class="label">&gt;&lt;</text>
+<text x="245" y="315" text-anchor="middle" class="label">chipi chapa</text>
+<text x="755" y="315" text-anchor="middle" class="label">chipi chapa</text>
+</svg>
