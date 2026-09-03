@@ -31,7 +31,7 @@ jobs:
                 assets/code-dna.svg > /tmp/dna/frame.svg
             rsvg-convert -w 1200 /tmp/dna/frame.svg -o "/tmp/dna/frame-${i}.png"
           done
-          magick -delay 9 -loop 0 -layers Optimize /tmp/dna/frame-*.png assets/code-dna.gif
+          convert -delay 9 -loop 0 -layers Optimize /tmp/dna/frame-*.png assets/code-dna.gif
 
       - name: Commit GIF
         run: |
