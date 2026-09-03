@@ -10,7 +10,7 @@ Building interactive software, developer tools, AI projects, and visual experien
   <a href="https://github.com/Shashwat220605">GitHub</a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal-v5.svg?v=1" width="100%" alt="Animated developer profile terminal" />
+<img src="assets/chipi-chapa-cats.svg" width="100%" alt="Animated developer profile terminal" />
 
 </div>
 
