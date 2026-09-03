@@ -1,55 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Original animated pixel gaming controller">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-label="Original animated realistic pixel gaming controller">
 <style>
-*{shape-rendering:crispEdges}.bg{fill:#090c12}.grid{stroke:#1b2430;stroke-width:2}.body{fill:#252d38;stroke:#7b8797;stroke-width:5}.bodyDark{fill:#171d26}.edge{fill:#303a48}.black{fill:#080b10}.white{fill:#e6edf3}.muted{fill:#687587}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.red{fill:#ff5a64}.green{fill:#4ade80}.purple{fill:#c084fc}.yellow{fill:#f2cc60}
-@keyframes hover{0%,100%{transform:translateY(3px) rotate(0deg)}50%{transform:translateY(-6px) rotate(-.7deg)}}
-@keyframes dpad{0%,100%{transform:translateY(0)}38%{transform:translateY(3px)}55%{transform:translateY(0)}}
-@keyframes button{0%,100%{transform:translateY(0)}38%{transform:translateY(4px)}55%{transform:translateY(0)}}
-@keyframes light{0%,100%{opacity:.3}50%{opacity:1}}
-@keyframes pulse{0%,100%{opacity:.12;transform:scale(1)}50%{opacity:.55;transform:scale(1.04)}}
-@keyframes scan{0%{transform:translateX(-100px);opacity:0}20%{opacity:.65}80%{opacity:.65}100%{transform:translateX(1000px);opacity:0}}
-.controller{animation:hover 3.4s ease-in-out infinite;transform-origin:450px 150px}.dpad{animation:dpad 1.7s steps(2) infinite}.b1{animation:button 1.1s steps(2) infinite}.b2{animation:button 1.1s .18s steps(2) infinite}.b3{animation:button 1.1s .36s steps(2) infinite}.b4{animation:button 1.1s .54s steps(2) infinite}.led{animation:light 1.5s ease-in-out infinite}.pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 4.5s linear infinite}
+*{shape-rendering:crispEdges}.bg{fill:#090c12}.grid{stroke:#1b2430;stroke-width:2}.body{fill:#252d38;stroke:#9aa7b7;stroke-width:5}.bodyHi{fill:#343e4c}.bodyDark{fill:#151b23}.edge{fill:#202832}.black{fill:#080b10}.white{fill:#e6edf3}.muted{fill:#687587}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.red{fill:#ff5a64}.green{fill:#4ade80}.purple{fill:#c084fc}.yellow{fill:#f2cc60}.shine{fill:#b9c5d3}
+@keyframes hover{0%,100%{transform:translateY(4px) rotate(0deg)}50%{transform:translateY(-7px) rotate(-.55deg)}}
+@keyframes dpad{0%,100%{transform:translateY(0)}32%{transform:translateY(3px)}48%{transform:translateY(0)}}
+@keyframes button{0%,100%{transform:translateY(0)}35%{transform:translateY(4px)}52%{transform:translateY(0)}}
+@keyframes stickL{0%,100%{transform:translate(0,0)}25%{transform:translate(-3px,2px)}50%{transform:translate(2px,-2px)}75%{transform:translate(3px,1px)}}
+@keyframes stickR{0%,100%{transform:translate(0,0)}30%{transform:translate(3px,-2px)}60%{transform:translate(-2px,2px)}}
+@keyframes light{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.12;transform:scale(1)}50%{opacity:.5;transform:scale(1.035)}}
+@keyframes scan{0%{transform:translateX(-150px);opacity:0}20%{opacity:.7}80%{opacity:.7}100%{transform:translateX(1150px);opacity:0}}
+.controller{animation:hover 3.6s ease-in-out infinite;transform-origin:500px 180px}.dpad{animation:dpad 1.55s steps(2) infinite}.b1{animation:button 1.05s steps(2) infinite}.b2{animation:button 1.05s .16s steps(2) infinite}.b3{animation:button 1.05s .32s steps(2) infinite}.b4{animation:button 1.05s .48s steps(2) infinite}.stickL{animation:stickL 2.2s steps(3) infinite}.stickR{animation:stickR 2.5s steps(3) infinite}.led{animation:light 1.5s ease-in-out infinite}.pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 4.8s linear infinite}
 </style>
-<rect width="900" height="300" rx="18" class="bg"/>
-<g opacity=".35" class="grid"><path d="M35 50h830M35 250h830"/><path d="M120 35v230M180 35v230M240 35v230M300 35v230M360 35v230M420 35v230M480 35v230M540 35v230M600 35v230M660 35v230M720 35v230M780 35v230"/></g>
-<g class="pulse" fill="none"><ellipse cx="450" cy="151" rx="315" ry="105" stroke="#58a6ff" stroke-width="2" stroke-dasharray="4 13"/><ellipse cx="450" cy="151" rx="292" ry="91" stroke="#c084fc" stroke-width="2" stroke-dasharray="2 18"/></g>
+<rect width="1000" height="360" rx="20" class="bg"/>
+<g opacity=".3" class="grid"><path d="M30 55h940M30 305h940"/><path d="M80 35v290M150 35v290M220 35v290M290 35v290M360 35v290M430 35v290M500 35v290M570 35v290M640 35v290M710 35v290M780 35v290M850 35v290M920 35v290"/></g>
+<g class="pulse" fill="none"><ellipse cx="500" cy="181" rx="390" ry="132" stroke="#58a6ff" stroke-width="2" stroke-dasharray="4 14"/><ellipse cx="500" cy="181" rx="365" ry="115" stroke="#c084fc" stroke-width="2" stroke-dasharray="2 20"/></g>
 <g class="controller">
-  <!-- compact, symmetric controller shell -->
-  <path d="M176 171c8-60 31-101 76-101h74c30 0 59 13 124 13s94-13 124-13h74c45 0 68 41 76 101l15 57c6 24-17 42-38 25l-67-55c-13-11-28-16-45-16H311c-17 0-32 5-45 16l-67 55c-21 17-44-1-38-25z" class="body"/>
-  <path d="M262 91c15-14 34-21 58-21h260c24 0 43 7 58 21l25 42H237z" class="bodyDark"/>
-  <path d="M198 174c10-42 25-69 51-82l-22 92-45 46c-11 11-27 2-23-13zM702 174c-10-42-25-69-51-82l22 92 45 46c11 11 27 2 23-13z" class="edge"/>
-
-  <!-- D-pad: left side -->
+  <!-- realistic shoulder and main shell -->
+  <path d="M184 208c10-72 36-121 83-121h82c34 0 64 15 151 15s117-15 151-15h82c47 0 73 49 83 121l20 72c7 27-18 49-42 30l-79-61c-15-12-32-18-51-18H336c-19 0-36 6-51 18l-79 61c-24 19-49-3-42-30z" class="body"/>
+  <path d="M272 111c17-16 39-24 67-24h322c28 0 50 8 67 24l34 56H238z" class="bodyDark"/>
+  <path d="M191 212c10-47 27-91 57-108l-20 104-46 55c-12 14-31 4-27-14zM809 212c-10-47-27-91-57-108l20 104 46 55c12 14 31 4 27-14z" class="edge"/>
+  <path d="M253 116c17-18 38-28 69-28h356c31 0 52 10 69 28" fill="none" stroke="#c1cad5" stroke-width="3" opacity=".55"/>
+  <!-- shoulder buttons -->
+  <path d="M291 91h78v18h-78z" class="bodyHi" stroke="#7b8797" stroke-width="3"/>
+  <path d="M631 91h78v18h-78z" class="bodyHi" stroke="#7b8797" stroke-width="3"/>
+  <text x="307" y="104" font-family="monospace" font-size="10" fill="#aab5c3">L1</text><text x="683" y="104" font-family="monospace" font-size="10" fill="#aab5c3">R1</text>
+  <!-- D-pad -->
   <g class="dpad">
-    <path d="M245 121h22v22h22v22h-22v22h-22v-22h-22v-22h22z" class="white"/>
-    <path d="M250 126h12v18h18v12h-18v18h-12v-18h-18v-12h18z" class="muted"/>
+    <path d="M239 151h30v27h27v30h-27v27h-30v-27h-27v-30h27z" class="black"/>
+    <path d="M245 157h18v25h25v18h-25v25h-18v-25h-25v-18h25z" class="white"/>
+    <path d="M249 161h10v21h21v10h-21v21h-10v-21h-21v-10h21z" class="muted"/>
   </g>
-
-  <!-- left analog: below and inward -->
-  <circle cx="340" cy="184" r="35" class="black" stroke="#707d8d" stroke-width="4"/>
-  <circle cx="340" cy="184" r="23" fill="#1c232d" stroke="#3d4958" stroke-width="3"/>
-  <circle cx="340" cy="184" r="14" fill="#252e3a"/>
-
-  <!-- right analog: below and inward -->
-  <circle cx="560" cy="184" r="35" class="black" stroke="#707d8d" stroke-width="4"/>
-  <circle cx="560" cy="184" r="23" fill="#1c232d" stroke="#3d4958" stroke-width="3"/>
-  <circle cx="560" cy="184" r="14" fill="#252e3a"/>
-
-  <!-- face buttons: far right, arranged in a real diamond -->
-  <g class="b1"><circle cx="654" cy="139" r="17" class="purple" stroke="#080b10" stroke-width="5"/><path d="M654 129v20M644 139h20" stroke="#fff" stroke-width="3"/></g>
-  <g class="b2"><circle cx="683" cy="168" r="17" class="blue" stroke="#080b10" stroke-width="5"/><path d="M673 158l20 20M693 158l-20 20" stroke="#fff" stroke-width="3"/></g>
-  <g class="b3"><circle cx="654" cy="197" r="17" class="red" stroke="#080b10" stroke-width="5"/><circle cx="654" cy="197" r="7" fill="none" stroke="#fff" stroke-width="3"/></g>
-  <g class="b4"><circle cx="625" cy="168" r="17" class="green" stroke="#080b10" stroke-width="5"/><rect x="617" y="160" width="16" height="16" fill="none" stroke="#fff" stroke-width="3"/></g>
-
-  <!-- center controls -->
-  <rect x="392" y="101" width="116" height="28" rx="14" class="black" stroke="#707d8d" stroke-width="4"/>
-  <rect x="410" y="110" width="24" height="7" rx="3" class="white"/>
-  <rect x="466" y="110" width="24" height="7" rx="3" class="white"/>
-  <circle cx="450" cy="145" r="11" class="black" stroke="#707d8d" stroke-width="3"/>
-  <circle cx="450" cy="145" r="5" class="led" fill="#39d9ff"/>
-  <path d="M397 76h106" stroke="#58a6ff" stroke-width="3" stroke-dasharray="4 8" opacity=".5"/>
-  <circle cx="450" cy="76" r="5" class="led" fill="#58a6ff"/><circle cx="430" cy="76" r="4" class="led" fill="#c084fc"/><circle cx="470" cy="76" r="4" class="led" fill="#4ade80"/>
-  <path d="M390 222h120" stroke="#303846" stroke-width="3"/><path d="M410 222h80" stroke="#58a6ff" stroke-width="2" stroke-dasharray="5 8"/>
+  <!-- left analog stick -->
+  <g class="stickL">
+    <circle cx="375" cy="221" r="43" class="black" stroke="#7b8797" stroke-width="4"/>
+    <circle cx="375" cy="221" r="32" fill="#171e27" stroke="#3f4b5b" stroke-width="4"/>
+    <circle cx="375" cy="221" r="22" fill="#2a3440" stroke="#596779" stroke-width="3"/>
+    <path d="M359 210h32M359 216h32" stroke="#8b98a8" stroke-width="2" opacity=".45"/>
+  </g>
+  <!-- right analog stick -->
+  <g class="stickR">
+    <circle cx="625" cy="221" r="43" class="black" stroke="#7b8797" stroke-width="4"/>
+    <circle cx="625" cy="221" r="32" fill="#171e27" stroke="#3f4b5b" stroke-width="4"/>
+    <circle cx="625" cy="221" r="22" fill="#2a3440" stroke="#596779" stroke-width="3"/>
+    <path d="M609 210h32M609 216h32" stroke="#8b98a8" stroke-width="2" opacity=".45"/>
+  </g>
+  <!-- face buttons -->
+  <g class="b1"><circle cx="746" cy="151" r="22" class="black"/><circle cx="746" cy="151" r="16" class="purple"/><path d="M746 141v20M736 151h20" stroke="#fff" stroke-width="3"/></g>
+  <g class="b2"><circle cx="780" cy="185" r="22" class="black"/><circle cx="780" cy="185" r="16" class="blue"/><path d="M770 175l20 20M790 175l-20 20" stroke="#fff" stroke-width="3"/></g>
+  <g class="b3"><circle cx="746" cy="219" r="22" class="black"/><circle cx="746" cy="219" r="16" class="red"/><circle cx="746" cy="219" r="7" fill="none" stroke="#fff" stroke-width="3"/></g>
+  <g class="b4"><circle cx="712" cy="185" r="22" class="black"/><circle cx="712" cy="185" r="16" class="green"/><rect x="704" y="177" width="16" height="16" fill="none" stroke="#fff" stroke-width="3"/></g>
+  <!-- center touch panel and controls -->
+  <path d="M425 119h150l10 45H415z" class="black" stroke="#707d8d" stroke-width="4"/>
+  <path d="M445 129h110" stroke="#3c4654" stroke-width="3"/>
+  <rect x="445" y="143" width="28" height="8" rx="4" class="white"/>
+  <rect x="527" y="143" width="28" height="8" rx="4" class="white"/>
+  <circle cx="500" cy="171" r="13" class="black" stroke="#707d8d" stroke-width="3"/>
+  <circle cx="500" cy="171" r="6" class="led" fill="#39d9ff"/>
+  <!-- small speaker/detail marks -->
+  <path d="M464 188h8M480 188h8M496 188h8M512 188h8M528 188h8" stroke="#596779" stroke-width="3"/>
+  <path d="M425 270h150" stroke="#303846" stroke-width="4"/>
+  <path d="M450 270h100" stroke="#58a6ff" stroke-width="2" stroke-dasharray="5 8"/>
+  <!-- indicator lights -->
+  <circle cx="470" cy="101" r="5" class="led" fill="#58a6ff"/><circle cx="500" cy="101" r="5" class="led" fill="#c084fc"/><circle cx="530" cy="101" r="5" class="led" fill="#4ade80"/>
+  <!-- bottom grip highlights -->
+  <path d="M277 273c31 18 54 26 82 26M723 273c-31 18-54 26-82 26" fill="none" stroke="#4b5868" stroke-width="4" opacity=".65"/>
 </g>
-<rect x="0" y="149" width="900" height="2" class="scan" opacity="0"/>
-<g font-family="monospace" font-size="12" fill="#697586"><text x="45" y="68">PLAYER_01</text><text x="790" y="68">READY</text><text x="45" y="239">GAMING_MODE</text><text x="782" y="239">ACTIVE</text></g>
+<rect x="0" y="180" width="1000" height="2" class="scan" opacity="0"/>
+<g font-family="monospace" font-size="13" fill="#697586"><text x="48" y="82">PLAYER_01</text><text x="872" y="82">READY</text><text x="48" y="282">GAMING_MODE</text><text x="861" y="282">ACTIVE</text></g>
 </svg>
