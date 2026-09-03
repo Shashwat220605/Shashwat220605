@@ -23,7 +23,15 @@ I'm a Computer Science Engineering student focused on building practical softwar
 I enjoy turning ideas into working products, experimenting with new technologies, and making complex concepts easier to understand through interactive interfaces.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa-cats.svg?v=3" width="700" alt="Two full body pixel art chipi chapa cats facing each other" />
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa-cats.svg?v=4" width="700" alt="Two full body pixel art chipi chapa cats facing each other with animated interaction" />
+</div>
+
+---
+
+## Digital Flow
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/code-dna.svg?v=1" width="100%" alt="Animated digital DNA code stream" />
 </div>
 
 ---
@@ -60,6 +68,10 @@ I prefer projects that combine **useful functionality with strong visual experie
 IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ```
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/particle-field.svg?v=1" width="100%" alt="Animated developer particle field" />
+</div>
+
 ---
 
 ## Currently
@@ -76,7 +88,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 <div align="center">
 
 <a href="https://github.com/Shashwat220605">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=5" width="100%" alt="Original large animated pixel gaming controller" />
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=6" width="100%" alt="Original large animated pixel gaming controller" />
 </a>
 
 <br>
