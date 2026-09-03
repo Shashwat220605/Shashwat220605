@@ -26,7 +26,7 @@ I'm a Computer Science Engineering student focused on building practical softwar
 I enjoy turning ideas into working products, experimenting with new technologies, and making complex concepts easier to understand through interactive interfaces.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa.svg?v=3" width="580" alt="Two pixel art chipi chapa cats wiggling and facing each other" />
+  <img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/chipi-chapa.svg?v=4" width="580" alt="Two pixel art chipi chapa cats wiggling and facing each other" />
 </div>
 
 ---
