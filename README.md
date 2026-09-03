@@ -13,7 +13,7 @@ Building interactive software, developer tools, AI projects, and visual experien
   <a href="https://devora-rose.vercel.app/">Devora</a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal.svg?v=6" width="100%" alt="Animated developer terminal" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal-clean.svg" width="100%" alt="Animated developer profile terminal" />
 
 </div>
 
