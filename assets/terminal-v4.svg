@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-label="Animated developer profile terminal">
 <style>
 *{shape-rendering:crispEdges}.bg{fill:#0d1117}.panel{fill:#161b22;stroke:#30363d;stroke-width:3}.bar{fill:#21262d}.red{fill:#ff5f56}.yellow{fill:#ffbd2e}.green{fill:#27c93f}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.purple{fill:#bc8cff}.txt{fill:#c9d1d9;font-family:monospace;font-size:18px}.dim{fill:#8b949e;font-family:monospace;font-size:15px}.cursor{fill:#58a6ff}
-@keyframes show{0%,100%{opacity:1}}
 @keyframes l1{0%,3%{clip-path:inset(0 100% 0 0)}18%{clip-path:inset(0 0 0 0)}18.01%,100%{clip-path:inset(0 0 0 0)}}
 @keyframes l2{0%,20%{clip-path:inset(0 100% 0 0)}38%{clip-path:inset(0 0 0 0)}38.01%,100%{clip-path:inset(0 0 0 0)}}
 @keyframes l3{0%,40%{clip-path:inset(0 100% 0 0)}52%{clip-path:inset(0 0 0 0)}52.01%,100%{clip-path:inset(0 0 0 0)}}
@@ -10,7 +9,9 @@
 @keyframes l6{0%,90%{clip-path:inset(0 100% 0 0)}98%{clip-path:inset(0 0 0 0)}98.01%,100%{clip-path:inset(0 0 0 0)}}
 .a{animation:l1 30s steps(8,end) infinite}.b{animation:l2 30s steps(16,end) infinite}.c{animation:l3 30s steps(5,end) infinite}.d{animation:l4 30s steps(28,end) infinite}.e{animation:l5 30s steps(7,end) infinite}.f{animation:l6 30s steps(32,end) infinite}
 @keyframes cursor{0%,3%{transform:translate(48px,76px)}18%,20%{transform:translate(134px,76px)}38%,40%{transform:translate(210px,108px)}52%,54%{transform:translate(91px,148px)}78%,80%{transform:translate(318px,180px)}88%,90%{transform:translate(124px,220px)}98%,100%{transform:translate(361px,252px)}}
-.cursor{animation:cursor 30s steps(1,end) infinite,blink .7s steps(1) infinite}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}@keyframes led{0%,100%{opacity:.3}50%{opacity:1}}.led{animation:led 1.5s ease-in-out infinite}
+.cursor{animation:cursor 30s steps(1,end) infinite,blink .7s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes led{0%,100%{opacity:.3}50%{opacity:1}}.led{animation:led 1.5s ease-in-out infinite}
 </style>
 <rect width="1000" height="320" rx="16" class="bg"/><rect x="18" y="18" width="964" height="284" rx="11" class="panel"/><rect x="18" y="18" width="964" height="38" rx="11" class="bar"/>
 <circle cx="44" cy="37" r="6" class="red"/><circle cx="65" cy="37" r="6" class="yellow"/><circle cx="86" cy="37" r="6" class="green"/><circle cx="950" cy="37" r="5" class="led" fill="#39d9ff"/>
