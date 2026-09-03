@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Original animated pixel gaming controller">
+<style>
+*{shape-rendering:crispEdges}.bg{fill:#090c12}.grid{stroke:#1b2430;stroke-width:2}.body{fill:#252d38;stroke:#7b8797;stroke-width:5}.bodyDark{fill:#171d26}.edge{fill:#303a48}.black{fill:#080b10}.white{fill:#e6edf3}.muted{fill:#687587}.blue{fill:#58a6ff}.cyan{fill:#39d9ff}.red{fill:#ff5a64}.green{fill:#4ade80}.purple{fill:#c084fc}.yellow{fill:#f2cc60}
+@keyframes hover{0%,100%{transform:translateY(3px) rotate(0deg)}50%{transform:translateY(-6px) rotate(-.7deg)}}
+@keyframes dpad{0%,100%{transform:translateY(0)}38%{transform:translateY(3px)}55%{transform:translateY(0)}}
+@keyframes button{0%,100%{transform:translateY(0)}38%{transform:translateY(4px)}55%{transform:translateY(0)}}
+@keyframes light{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.12;transform:scale(1)}50%{opacity:.55;transform:scale(1.04)}}
+@keyframes scan{0%{transform:translateX(-100px);opacity:0}20%{opacity:.65}80%{opacity:.65}100%{transform:translateX(1000px);opacity:0}}
+.controller{animation:hover 3.4s ease-in-out infinite;transform-origin:450px 150px}.dpad{animation:dpad 1.7s steps(2) infinite}.b1{animation:button 1.1s steps(2) infinite}.b2{animation:button 1.1s .18s steps(2) infinite}.b3{animation:button 1.1s .36s steps(2) infinite}.b4{animation:button 1.1s .54s steps(2) infinite}.led{animation:light 1.5s ease-in-out infinite}.pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 4.5s linear infinite}
+</style>
+<rect width="900" height="300" rx="18" class="bg"/>
+<g opacity=".35" class="grid"><path d="M35 50h830M35 250h830"/><path d="M120 35v230M180 35v230M240 35v230M300 35v230M360 35v230M420 35v230M480 35v230M540 35v230M600 35v230M660 35v230M720 35v230M780 35v230"/></g>
+<g class="pulse" fill="none"><ellipse cx="450" cy="151" rx="315" ry="105" stroke="#58a6ff" stroke-width="2" stroke-dasharray="4 13"/><ellipse cx="450" cy="151" rx="292" ry="91" stroke="#c084fc" stroke-width="2" stroke-dasharray="2 18"/></g>
+<g class="controller">
+  <!-- compact, symmetric controller shell -->
+  <path d="M176 171c8-60 31-101 76-101h74c30 0 59 13 124 13s94-13 124-13h74c45 0 68 41 76 101l15 57c6 24-17 42-38 25l-67-55c-13-11-28-16-45-16H311c-17 0-32 5-45 16l-67 55c-21 17-44-1-38-25z" class="body"/>
+  <path d="M262 91c15-14 34-21 58-21h260c24 0 43 7 58 21l25 42H237z" class="bodyDark"/>
+  <path d="M198 174c10-42 25-69 51-82l-22 92-45 46c-11 11-27 2-23-13zM702 174c-10-42-25-69-51-82l22 92 45 46c11 11 27 2 23-13z" class="edge"/>
+
+  <!-- D-pad: left side -->
+  <g class="dpad">
+    <path d="M245 121h22v22h22v22h-22v22h-22v-22h-22v-22h22z" class="white"/>
+    <path d="M250 126h12v18h18v12h-18v18h-12v-18h-18v-12h18z" class="muted"/>
+  </g>
+
+  <!-- left analog: below and inward -->
+  <circle cx="340" cy="184" r="35" class="black" stroke="#707d8d" stroke-width="4"/>
+  <circle cx="340" cy="184" r="23" fill="#1c232d" stroke="#3d4958" stroke-width="3"/>
+  <circle cx="340" cy="184" r="14" fill="#252e3a"/>
+
+  <!-- right analog: below and inward -->
+  <circle cx="560" cy="184" r="35" class="black" stroke="#707d8d" stroke-width="4"/>
+  <circle cx="560" cy="184" r="23" fill="#1c232d" stroke="#3d4958" stroke-width="3"/>
+  <circle cx="560" cy="184" r="14" fill="#252e3a"/>
+
+  <!-- face buttons: far right, arranged in a real diamond -->
+  <g class="b1"><circle cx="654" cy="139" r="17" class="purple" stroke="#080b10" stroke-width="5"/><path d="M654 129v20M644 139h20" stroke="#fff" stroke-width="3"/></g>
+  <g class="b2"><circle cx="683" cy="168" r="17" class="blue" stroke="#080b10" stroke-width="5"/><path d="M673 158l20 20M693 158l-20 20" stroke="#fff" stroke-width="3"/></g>
+  <g class="b3"><circle cx="654" cy="197" r="17" class="red" stroke="#080b10" stroke-width="5"/><circle cx="654" cy="197" r="7" fill="none" stroke="#fff" stroke-width="3"/></g>
+  <g class="b4"><circle cx="625" cy="168" r="17" class="green" stroke="#080b10" stroke-width="5"/><rect x="617" y="160" width="16" height="16" fill="none" stroke="#fff" stroke-width="3"/></g>
+
+  <!-- center controls -->
+  <rect x="392" y="101" width="116" height="28" rx="14" class="black" stroke="#707d8d" stroke-width="4"/>
+  <rect x="410" y="110" width="24" height="7" rx="3" class="white"/>
+  <rect x="466" y="110" width="24" height="7" rx="3" class="white"/>
+  <circle cx="450" cy="145" r="11" class="black" stroke="#707d8d" stroke-width="3"/>
+  <circle cx="450" cy="145" r="5" class="led" fill="#39d9ff"/>
+  <path d="M397 76h106" stroke="#58a6ff" stroke-width="3" stroke-dasharray="4 8" opacity=".5"/>
+  <circle cx="450" cy="76" r="5" class="led" fill="#58a6ff"/><circle cx="430" cy="76" r="4" class="led" fill="#c084fc"/><circle cx="470" cy="76" r="4" class="led" fill="#4ade80"/>
+  <path d="M390 222h120" stroke="#303846" stroke-width="3"/><path d="M410 222h80" stroke="#58a6ff" stroke-width="2" stroke-dasharray="5 8"/>
+</g>
+<rect x="0" y="149" width="900" height="2" class="scan" opacity="0"/>
+<g font-family="monospace" font-size="12" fill="#697586"><text x="45" y="68">PLAYER_01</text><text x="790" y="68">READY</text><text x="45" y="239">GAMING_MODE</text><text x="782" y="239">ACTIVE</text></g>
+</svg>
