@@ -1,19 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="Two pixel art cats facing each other and wiggling">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Two pixel art chipi chapa cats facing each other and wiggling">
 <style>
-.pixel{shape-rendering:crispEdges}.cat{transform-box:fill-box;transform-origin:center bottom;animation:wiggle .8s steps(2,end) infinite alternate}.cat2{animation-delay:-.4s}.tail{transform-box:fill-box;transform-origin:center bottom;animation:tail .65s steps(3,end) infinite alternate}.tail2{animation-delay:-.3s}.heart{transform-box:fill-box;transform-origin:center;animation:heart .9s steps(2,end) infinite alternate}.label{font:700 22px monospace;fill:#bc8cff}@keyframes wiggle{0%{transform:translateY(0) rotate(-2deg)}100%{transform:translateY(-5px) rotate(2deg)}}@keyframes tail{0%{transform:rotate(-10deg)}100%{transform:rotate(12deg)}}@keyframes heart{0%{transform:translateY(0) scale(1)}100%{transform:translateY(-5px) scale(1.08)}}
+.pixel{shape-rendering:crispEdges}.label{font:700 22px monospace;fill:#bc8cff}.cat{transform-box:fill-box;transform-origin:center bottom;animation:wiggle .75s steps(2,end) infinite alternate}.cat2{animation-delay:-.375s}.tail{transform-box:fill-box;transform-origin:100% 100%;animation:tail .6s steps(3,end) infinite alternate}.tail2{transform-origin:0% 100%;animation-delay:-.3s}.heart{transform-box:fill-box;transform-origin:center;animation:pulse .9s steps(2,end) infinite alternate}@keyframes wiggle{0%{transform:translateY(0) rotate(-2deg)}100%{transform:translateY(-6px) rotate(2deg)}}@keyframes tail{0%{transform:rotate(-12deg)}100%{transform:rotate(12deg)}}@keyframes pulse{0%{transform:scale(1)}100%{transform:scale(1.12)}}
 </style>
 <g class="cat">
-<g class="pixel" transform="translate(115 20) scale(5.2)">
-<path fill="#c7bba7" d="M18 2h5v5h5l4-5h4v12h3v14h-4v4h-5v3H13v-3H8v-4H5V13h3V6h6v4h4z"/>
-<path fill="#eadfc9" d="M18 11h9v3h4v10h-3v7H17v-3h-5v-8h4v-6h2z"/>
-<path fill="#756b5d" d="M7 15h5v9H8v-3H5v-4h2zM14 28h6v4h-6zM28 7h4v7h-4z"/>
-<rect x="15" y="15" width="3" height="3" fill="#171717"/><rect x="26" y="15" width="3" height="3" fill="#171717"/><rect x="20" y="20" width="4" height="2" fill="#171717"/><rect x="19" y="22" width="6" height="2" fill="#171717"/>
-<rect x="5" y="16" width="6" height="1" fill="#343434"/><rect x="5" y="20" width="6" height="1" fill="#343434"/><rect x="30" y="16" width="6" height="1" fill="#343434"/><rect x="30" y="20" width="6" height="1" fill="#343434"/><rect x="12" y="32" width="6" height="2" fill="#171717"/><rect x="27" y="32" width="6" height="2" fill="#171717"/>
-</g><g class="tail pixel" transform="translate(135 125) scale(5)"><path fill="#756b5d" d="M0 9h3V5h3V1h5v4H8v5H6v4h6v4H5v-2H2v-3H0z"/></g></g>
-<g class="cat cat2"><g class="pixel" transform="translate(785 20) scale(-5.2 5.2)">
-<path fill="#d6a96f" d="M18 2h5v5h5l4-5h4v12h3v14h-4v4h-5v3H13v-3H8v-4H5V13h3V6h6v4h4z"/><path fill="#f2dfbb" d="M18 11h9v3h4v10h-3v7H17v-3h-5v-8h4v-6h2z"/><path fill="#8a603c" d="M7 15h5v9H8v-3H5v-4h2zM14 28h6v4h-6zM28 7h4v7h-4z"/>
-<rect x="15" y="15" width="3" height="3" fill="#171717"/><rect x="26" y="15" width="3" height="3" fill="#171717"/><rect x="20" y="20" width="4" height="2" fill="#171717"/><rect x="19" y="22" width="6" height="2" fill="#171717"/><rect x="5" y="16" width="6" height="1" fill="#343434"/><rect x="5" y="20" width="6" height="1" fill="#343434"/><rect x="30" y="16" width="6" height="1" fill="#343434"/><rect x="30" y="20" width="6" height="1" fill="#343434"/><rect x="12" y="32" width="6" height="2" fill="#171717"/><rect x="27" y="32" width="6" height="2" fill="#171717"/>
-</g><g class="tail tail2 pixel" transform="translate(765 125) scale(-5 5)"><path fill="#8a603c" d="M0 9h3V5h3V1h5v4H8v5H6v4h6v4H5v-2H2v-3H0z"/></g></g>
-<g class="heart"><path class="pixel" fill="#ff6b9d" d="M421 100h7v-7h7v4h7v-4h7v7h7v14h-7v7h-7v7h-7v-7h-7v-7h-7z"/></g>
-<text x="230" y="242" text-anchor="middle" class="label">chipi chapa</text><text x="670" y="242" text-anchor="middle" class="label">chipi chapa</text><text x="450" y="247" text-anchor="middle" class="label">&gt;&lt;</text>
+<g class="pixel">
+<path fill="#c7bba7" d="M150 58h26v26h26l20-26h20v64h16v70h-20v20h-26v15h-76v-15h-26v-20h-16v-70h16V84h30z"/>
+<path fill="#eadfc9" d="M150 108h46v15h20v50h-15v35h-35v-15h-25v-40h20v-30h-11z"/>
+<path fill="#756b5d" d="M95 128h25v45h-20v-15h-15v-20h10zM130 198h30v20h-30zM200 88h20v35h-20z"/>
+<rect x="135" y="128" width="15" height="15" fill="#171717"/><rect x="190" y="128" width="15" height="15" fill="#171717"/>
+<rect x="160" y="153" width="20" height="10" fill="#171717"/><rect x="155" y="163" width="30" height="10" fill="#171717"/>
+<path d="M115 140H75M115 160H70M220 140H260M220 160H265" stroke="#343434" stroke-width="5"/>
+<rect x="130" y="218" width="30" height="10" fill="#171717"/><rect x="205" y="218" width="30" height="10" fill="#171717"/>
+</g>
+<g class="tail"><path fill="#756b5d" d="M120 190q-55 30-35 55q20 25 55-5l-10-12q-20 15-25 2q-5-13 30-25z"/></g>
+</g>
+<g class="cat cat2">
+<g class="pixel">
+<path fill="#d6a96f" d="M650 58h26v26h26l20-26h20v64h16v70h-20v20h-26v15h-76v-15h-26v-20h-16v-70h16V84h30z"/>
+<path fill="#f2dfbb" d="M650 108h46v15h20v50h-15v35h-35v-15h-25v-40h20v-30h-11z"/>
+<path fill="#8a603c" d="M595 128h25v45h-20v-15h-15v-20h10zM630 198h30v20h-30zM700 88h20v35h-20z"/>
+<rect x="635" y="128" width="15" height="15" fill="#171717"/><rect x="690" y="128" width="15" height="15" fill="#171717"/>
+<rect x="660" y="153" width="20" height="10" fill="#171717"/><rect x="655" y="163" width="30" height="10" fill="#171717"/>
+<path d="M615 140H575M615 160H570M720 140H760M720 160H765" stroke="#343434" stroke-width="5"/>
+<rect x="630" y="218" width="30" height="10" fill="#171717"/><rect x="705" y="218" width="30" height="10" fill="#171717"/>
+</g>
+<g class="tail tail2"><path fill="#8a603c" d="M780 190q55 30 35 55q-20 25-55-5l10-12q20 15 25 2q5-13-30-25z"/></g>
+</g>
+<g class="heart"><path fill="#ff6b9d" d="M421 125h14v-14h14v8h14v-8h14v14h14v28h-14v14h-14v14h-14v-14h-14v-14h-14z"/></g>
+<text x="210" y="275" text-anchor="middle" class="label">chipi chapa</text><text x="690" y="275" text-anchor="middle" class="label">chipi chapa</text><text x="450" y="275" text-anchor="middle" class="label">&gt;&lt;</text>
 </svg>
