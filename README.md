@@ -13,7 +13,7 @@ Building interactive software, developer tools, AI projects, and visual experien
   <a href="https://devora-rose.vercel.app/">Devora</a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal.svg?v=1" width="100%" alt="Animated developer terminal" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/terminal.svg?v=2" width="100%" alt="Animated developer terminal" />
 
 </div>
 
@@ -39,74 +39,29 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 **Live:** [AlgoVerse](https://algo-verse-seven.vercel.app/) · [Periodic Table 3D](https://periodic-table-3-d.vercel.app/) · [Devora](https://devora-rose.vercel.app/)
 
-### Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### ⚡ [AlgoVerse](https://github.com/Shashwat220605/AlgoVerse)
-
-**Interactive DSA learning platform**
-
-Visualize algorithms, control execution, inspect code, take notes, and practice concepts interactively.
-
-`React` `Vite` `Algorithms`
-
-</td>
-<td width="50%">
-
-### 🧠 NOVA AI Assistant
-
-**Desktop AI & automation**
-
-An AI-focused desktop project exploring useful local workflows, automation, and developer productivity.
-
-`Python` `AI` `Automation`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔧 [Devora](https://github.com/Shashwat220605/Devora)
-
-**AI developer workspace**
-
-Project-aware assistance, code execution, GitHub workflows, PR reviews, deployment checks, and persistent project memory.
-
-`AI` `GitHub` `Developer Tools`
-
-</td>
-<td width="50%">
-
-### 🌐 [Periodic Table 3D](https://periodic-table-3-d.vercel.app/)
-
-**Interactive 3D learning experience**
-
-Explore chemical elements and periodic trends through an interactive 3D interface.
-
-`Three.js` `3D` `Education`
-
-</td>
-</tr>
-</table>
-
 ---
 
-## Technologies
+## Tech Arsenal
 
-**Languages**  
+<div align="center">
+
+### ⚙️ Languages
+
 `C` `C++` `Python` `JavaScript`
 
-**Web & Backend**  
+### 🌐 Web & Backend
+
 `React` `Node.js` `Express` `Vite` `Tailwind CSS` `Three.js` `GSAP`
 
-**3D & Creative Development**  
+### 🎨 3D & Creative Development
+
 `Blender` `Three.js`
 
-**Tools**  
+### 🛠️ Tools & Workflow
+
 `Git` `GitHub` `VS Code` `Vercel`
+
+</div>
 
 ---
 
@@ -133,7 +88,7 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=3" width="100%" alt="Original large animated pixel gaming controller" />
+<img src="https://raw.githubusercontent.com/Shashwat220605/Shashwat220605/main/assets/controller-v3.svg?v=4" width="100%" alt="Original large animated pixel gaming controller" />
 
 <br>
 
