@@ -64,12 +64,38 @@ I enjoy turning ideas into working products, experimenting with new technologies
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
 
 <div align="center">
-<img src="assets/profile-vfx/code-window.gif" width="100%" alt="Animated code window" />
-</div>
 
-```text
-IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
+```cpp
+struct Developer {
+
+    const char* name = "SHASHWAT GHADGE";
+    const char* role = "COMPUTER SCIENCE ENGINEER";
+
+    Skills skills {
+        C++, Python,
+        JavaScript, TypeScript,
+        React, Three.js,
+        Node.js, Blender
+    };
+
+    Focus focus {
+        Algorithms,
+        AI,
+        Systems,
+        3D,
+        FullStack
+    };
+
+    void build() {
+        idea();
+        code();
+        experiment();
+        ship();
+    }
+};
 ```
+
+</div>
 
 ---
 
