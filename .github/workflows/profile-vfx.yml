@@ -1,0 +1,92 @@
+name: Build profile VFX
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build-vfx:
+    if: ${{ !contains(github.event.head_commit.message, '[profile-vfx]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install Pillow
+        run: python -m pip install pillow
+      - name: Generate animated profile effects
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageDraw, ImageFont, ImageFilter
+          import math, os
+          OUT='assets/profile-vfx'; os.makedirs(OUT,exist_ok=True); W,H,N=900,280,24
+          def F(n,m=False):
+              p='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf' if m else '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+              return ImageFont.truetype(p,n)
+          def B():
+              im=Image.new('RGB',(W,H),(9,11,18)); d=ImageDraw.Draw(im)
+              for y in range(H):
+                  t=y/(H-1); d.line((0,y,W,y),fill=(int(9+10*t),int(11+8*t),int(18+16*t)))
+              for x in range(0,W,45): d.line((x,0,x,H),fill=(18,23,35))
+              for y in range(0,H,45): d.line((0,y,W,y),fill=(18,23,35))
+              return im
+          # katana
+          fs=[]
+          for i in range(N):
+              im=B().convert('RGBA'); g=Image.new('RGBA',(W,H)); gd=ImageDraw.Draw(g); p=i/(N-1); x=-160+p*(W+320); y=H-35-p*(H-70)
+              gd.line((x+90,y+25,x-120,y-35),fill=(190,220,255,120),width=20); gd.line((x+90,y+25,x-120,y-35),fill=(245,250,255),width=4); g=g.filter(ImageFilter.GaussianBlur(8)); im=Image.alpha_composite(im,g); d=ImageDraw.Draw(im); d.text((35,30),'KATANA SLASH',font=F(22,1),fill=(220,228,240,220)); d.text((35,60),'transition / impact',font=F(15,1),fill=(120,140,170,190)); fs.append(im.convert('P',palette=Image.Palette.ADAPTIVE,colors=64))
+          fs[0].save(f'{OUT}/katana-slash.gif',save_all=True,append_images=fs[1:],duration=70,loop=0,optimize=True)
+          # moon
+          fs=[]
+          for i in range(N):
+              im=B().convert('RGBA'); d=ImageDraw.Draw(im); d.ellipse((620,35,790,205),fill=(225,230,238),outline=(255,255,255,220),width=2)
+              for k in range(12):
+                  cx=(k*120+i*8)%(W+180)-90; cy=125+(k%4)*22; d.ellipse((cx,cy,cx+150,cy+35),fill=(13,17,28,235))
+              d.text((35,30),'MOONLIGHT',font=F(22,1),fill=(220,228,240,220)); d.text((35,60),'cloud drift / ambient motion',font=F(15,1),fill=(120,140,170,190)); fs.append(im.convert('P',palette=Image.Palette.ADAPTIVE,colors=64))
+          fs[0].save(f'{OUT}/moon-clouds.gif',save_all=True,append_images=fs[1:],duration=100,loop=0,optimize=True)
+          # code
+          fs=[]; code=['const build = () => {','  ship("ideas");','  debug();','  improve();','};','build();']
+          for i in range(N):
+              im=B().convert('RGBA'); d=ImageDraw.Draw(im); d.rounded_rectangle((115,38,785,242),radius=14,outline=(70,88,120,230),fill=(12,16,25,245),width=2)
+              for x,c in [(135,(190,90,90)),(153,(190,170,80)),(171,(90,170,120))]: d.ellipse((x,55,x+10,65),fill=c)
+              f=F(18,1); vis=min(6,max(1,i//3+1))
+              for j,line in enumerate(code[:vis]): d.text((145,88+j*23),line,font=f,fill=(190,210,235,230))
+              if vis==6:
+                  x=145+d.textlength(code[-1],font=f); blink=255 if (i//2)%2==0 else 60; d.rectangle((x+2,90+5*23,x+4,111+5*23),fill=(120,210,255,blink))
+              fs.append(im.convert('P',palette=Image.Palette.ADAPTIVE,colors=64))
+          fs[0].save(f'{OUT}/code-window.gif',save_all=True,append_images=fs[1:],duration=120,loop=0,optimize=True)
+          # skill nodes
+          fs=[]; nodes=[(225,140,'C++'),(360,85,'React'),(500,150,'AI'),(640,90,'3D'),(760,175,'Git')]
+          for i in range(N):
+              im=B().convert('RGBA'); g=Image.new('RGBA',(W,H)); gd=ImageDraw.Draw(g)
+              for a,b in zip(nodes,nodes[1:]): gd.line((a[0],a[1],b[0],b[1]),fill=(80,150,220,90),width=2)
+              for x,y,l in nodes:
+                  q=(math.sin(i/3+x/100)+1)/2; r=8+int(6*q); gd.ellipse((x-r-10,y-r-10,x+r+10,y+r+10),fill=(90,170,255,int(25+45*q)))
+              g=g.filter(ImageFilter.GaussianBlur(10)); im=Image.alpha_composite(im,g); d=ImageDraw.Draw(im)
+              for x,y,l in nodes:
+                  d.ellipse((x-8,y-8,x+8,y+8),fill=(175,220,255),outline=(235,245,255)); f=F(15,1); tw=d.textlength(l,font=f); d.text((x-tw/2,y+17),l,font=f,fill=(205,220,240,230))
+              d.text((35,30),'SKILL NETWORK',font=F(22,1),fill=(220,228,240,220)); fs.append(im.convert('P',palette=Image.Palette.ADAPTIVE,colors=64))
+          fs[0].save(f'{OUT}/skill-nodes.gif',save_all=True,append_images=fs[1:],duration=90,loop=0,optimize=True)
+          PY
+      - name: Wire effects into README
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('README.md'); s=p.read_text()
+          s=s.replace('<img src="assets/chipi-chapa-cats.svg" width="100%" alt="Animated developer profile terminal" />','<img src="assets/profile-vfx/moon-clouds.gif" width="100%" alt="Animated moon and drifting clouds" />')
+          s=s.replace('## About\n','<div align="center">\n<img src="assets/profile-vfx/katana-slash.gif" width="100%" alt="Animated katana slash transition" />\n</div>\n\n## About\n')
+          s=s.replace('<div align="center">\n\n### ⚙️ Languages','<div align="center">\n\n<img src="assets/profile-vfx/skill-nodes.gif" width="100%" alt="Animated glowing skill network" />\n\n### ⚙️ Languages')
+          s=s.replace('```text\nIDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT\n```','<div align="center">\n<img src="assets/profile-vfx/code-window.gif" width="100%" alt="Animated code window" />\n</div>\n\n```text\nIDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT\n```')
+          p.write_text(s)
+          PY
+      - name: Commit generated profile VFX
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/profile-vfx
+          git diff --cached --quiet || git commit -m 'Add animated profile VFX [profile-vfx]'
+          git push
