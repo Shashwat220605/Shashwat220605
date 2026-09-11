@@ -4,13 +4,24 @@
 
 ### Computer Science Engineer · Full-Stack Developer · AI & 3D Enthusiast
 
-Building interactive software, developer tools, AI projects, and visual experiences.
+**I build software that works, looks sharp, and has a reason to exist.**
 
 <p>
-  <a href="https://github.com/Shashwat220605">GitHub</a>
+  <a href="https://github.com/Shashwat220605">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
 </p>
 
+<br>
+
 <img src="assets/profile-vfx/moon-clouds.gif" width="100%" alt="Animated moon and drifting clouds" />
+
+<br>
+
+> **Build · Experiment · Learn · Ship**
 
 </div>
 
@@ -21,8 +32,6 @@ Building interactive software, developer tools, AI projects, and visual experien
 I'm a Computer Science Engineering student focused on building practical software across **full-stack development, AI, algorithms, and 3D experiences**.
 
 I enjoy turning ideas into working products, experimenting with new technologies, and making complex concepts easier to understand through interactive interfaces.
-
-
 
 ---
 
@@ -92,7 +101,9 @@ IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
 ## Connect
 
 <p align="center">
-  <a href="https://github.com/Shashwat220605">GitHub</a> · Explore my work and experiments
+  <a href="https://github.com/Shashwat220605">
+    <img src="https://img.shields.io/badge/Explore_my_work-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work on GitHub" />
+  </a>
 </p>
 
 <p align="center">
