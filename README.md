@@ -63,39 +63,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
 
-<div align="center">
-
-```cpp
-struct Developer {
-
-    const char* name = "SHASHWAT GHADGE";
-    const char* role = "COMPUTER SCIENCE ENGINEER";
-
-    Skills skills {
-        C++, Python,
-        JavaScript, TypeScript,
-        React, Three.js,
-        Node.js, Blender
-    };
-
-    Focus focus {
-        Algorithms,
-        AI,
-        Systems,
-        3D,
-        FullStack
-    };
-
-    void build() {
-        idea();
-        code();
-        experiment();
-        ship();
-    }
-};
-```
-
-</div>
+<img src="assets/profile-vfx/developer-identity.svg" width="100%" alt="Animated developer identity showing Shashwat Ghadge, skills, focus and engineering mindset" />
 
 ---
 
