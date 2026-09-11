@@ -63,7 +63,7 @@ I enjoy turning ideas into working products, experimenting with new technologies
 
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
 
-<img src="assets/profile-vfx/developer-identity.svg?v=2" width="100%" alt="Terminal-style developer identity for Shashwat Ghadge" />
+<img src="assets/profile-vfx/developer-terminal.svg" width="100%" alt="Terminal-style developer identity for Shashwat Ghadge" />
 
 ---
 
