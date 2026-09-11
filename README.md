@@ -1,10 +1,6 @@
 <div align="center">
 
-# SHASHWAT GHADGE
-
-### Computer Science Engineer · Full-Stack Developer · AI & 3D Enthusiast
-
-**I build software that works, looks sharp, and has a reason to exist.**
+<img src="assets/profile-vfx/developer-terminal.svg" width="100%" alt="Terminal-style developer identity for Shashwat Ghadge" />
 
 <p>
   <a href="https://github.com/Shashwat220605">
@@ -62,8 +58,6 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ## Engineering Focus
 
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
-
-<img src="assets/profile-vfx/developer-terminal.svg" width="100%" alt="Terminal-style developer identity for Shashwat Ghadge" />
 
 ---
 
