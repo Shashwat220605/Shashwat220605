@@ -16,10 +16,6 @@ Building interactive software, developer tools, AI projects, and visual experien
 
 ---
 
-<div align="center">
-<img src="assets/profile-vfx/katana-slash.gif" width="100%" alt="Animated katana slash transition" />
-</div>
-
 ## About
 
 I'm a Computer Science Engineering student focused on building practical software across **full-stack development, AI, algorithms, and 3D experiences**.
@@ -33,8 +29,6 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ## Tech Arsenal
 
 <div align="center">
-
-<img src="assets/profile-vfx/skill-nodes.gif" width="100%" alt="Animated glowing skill network" />
 
 ### ⚙️ Languages
 
