@@ -2,15 +2,6 @@
 
 <img src="assets/profile-vfx/developer-terminal.svg" width="100%" alt="Terminal-style developer identity for Shashwat Ghadge" />
 
-<p>
-  <a href="https://github.com/Shashwat220605">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
-</p>
-
 <br>
 
 <img src="assets/profile-vfx/moon-clouds.gif" width="100%" alt="Animated moon and drifting clouds" />
