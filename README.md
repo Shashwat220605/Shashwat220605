@@ -10,11 +10,15 @@ Building interactive software, developer tools, AI projects, and visual experien
   <a href="https://github.com/Shashwat220605">GitHub</a>
 </p>
 
-<img src="assets/chipi-chapa-cats.svg" width="100%" alt="Animated developer profile terminal" />
+<img src="assets/profile-vfx/moon-clouds.gif" width="100%" alt="Animated moon and drifting clouds" />
 
 </div>
 
 ---
+
+<div align="center">
+<img src="assets/profile-vfx/katana-slash.gif" width="100%" alt="Animated katana slash transition" />
+</div>
 
 ## About
 
@@ -29,6 +33,8 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ## Tech Arsenal
 
 <div align="center">
+
+<img src="assets/profile-vfx/skill-nodes.gif" width="100%" alt="Animated glowing skill network" />
 
 ### ⚙️ Languages
 
@@ -53,6 +59,10 @@ I enjoy turning ideas into working products, experimenting with new technologies
 ## Engineering Focus
 
 I prefer projects that combine **useful functionality with strong visual experiences**, while keeping performance and maintainability in mind.
+
+<div align="center">
+<img src="assets/profile-vfx/code-window.gif" width="100%" alt="Animated code window" />
+</div>
 
 ```text
 IDEA → BUILD → TEST → IMPROVE → SHIP → REPEAT
